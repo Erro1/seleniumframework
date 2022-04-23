@@ -1,0 +1,868 @@
+2022-04-16 20:57:44,849 CRITICAL CRITICAL LEVEL
+2022-04-16 20:57:44,849 ERROR    ERROR LEVEL
+2022-04-16 20:57:44,849 WARNING  WARNING LEVEL
+2022-04-16 20:57:44,849 INFO     INFO LEVEL
+2022-04-16 20:57:44,849 DEBUG    DEBUG LEVEL
+2022-04-16 20:57:44,849 INFO     ====== WebDriver manager ======
+2022-04-16 20:57:44,880 INFO     Current google-chrome version is 100.0.4896
+2022-04-16 20:57:44,880 INFO     Get LATEST driver version for 100.0.4896
+2022-04-16 20:57:44,880 DEBUG    Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2022-04-16 20:57:45,099 DEBUG    https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_100.0.4896 HTTP/1.1" 200 13
+2022-04-16 20:57:45,114 INFO     Driver [C:\Users\Butch\.wdm\drivers\chromedriver\win32\100.0.4896.60\chromedriver.exe] found in cache
+2022-04-16 20:57:45,677 DEBUG    POST http://127.0.0.1:51722/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2022-04-16 20:57:45,677 DEBUG    Starting new HTTP connection (1): 127.0.0.1:51722
+2022-04-16 20:57:46,334 DEBUG    http://127.0.0.1:51722 "POST /session HTTP/1.1" 200 788
+2022-04-16 20:57:46,334 DEBUG    Finished Request
+2022-04-16 20:57:46,337 DEBUG    POST http://127.0.0.1:51722/session/5c7139615fe17b37473e1143b291a268/url {"url": "http://tutorialsninja.com/demo/index.php?route=account/login"}
+2022-04-16 20:57:49,618 DEBUG    http://127.0.0.1:51722 "POST /session/5c7139615fe17b37473e1143b291a268/url HTTP/1.1" 200 14
+2022-04-16 20:57:49,618 DEBUG    Finished Request
+2022-04-16 20:57:49,619 DEBUG    POST http://127.0.0.1:51722/session/5c7139615fe17b37473e1143b291a268/window/maximize {}
+2022-04-16 20:57:49,729 DEBUG    http://127.0.0.1:51722 "POST /session/5c7139615fe17b37473e1143b291a268/window/maximize HTTP/1.1" 200 51
+2022-04-16 20:57:49,729 DEBUG    Finished Request
+2022-04-16 20:57:49,729 DEBUG    DELETE http://127.0.0.1:51722/session/5c7139615fe17b37473e1143b291a268 {}
+2022-04-16 20:57:49,753 DEBUG    http://127.0.0.1:51722 "DELETE /session/5c7139615fe17b37473e1143b291a268 HTTP/1.1" 200 14
+2022-04-16 20:57:49,753 DEBUG    Finished Request
+2022-04-16 21:00:09,033 CRITICAL CRITICAL LEVEL
+2022-04-16 21:00:09,033 ERROR    ERROR LEVEL
+2022-04-16 21:00:09,033 WARNING  WARNING LEVEL
+2022-04-16 21:00:09,033 INFO     INFO LEVEL
+2022-04-16 21:00:09,033 DEBUG    DEBUG LEVEL
+2022-04-16 21:00:09,033 INFO     ====== WebDriver manager ======
+2022-04-16 21:00:09,049 INFO     Current google-chrome version is 100.0.4896
+2022-04-16 21:00:09,049 INFO     Get LATEST driver version for 100.0.4896
+2022-04-16 21:00:09,049 DEBUG    Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2022-04-16 21:00:09,283 DEBUG    https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_100.0.4896 HTTP/1.1" 200 13
+2022-04-16 21:00:09,299 INFO     Driver [C:\Users\Butch\.wdm\drivers\chromedriver\win32\100.0.4896.60\chromedriver.exe] found in cache
+2022-04-16 21:00:09,846 DEBUG    POST http://127.0.0.1:51853/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2022-04-16 21:00:09,846 DEBUG    Starting new HTTP connection (1): 127.0.0.1:51853
+2022-04-16 21:00:10,466 DEBUG    http://127.0.0.1:51853 "POST /session HTTP/1.1" 200 788
+2022-04-16 21:00:10,466 DEBUG    Finished Request
+2022-04-16 21:00:10,470 DEBUG    POST http://127.0.0.1:51853/session/e5cc0052ef0c345ce8881e6324308ac8/url {"url": "http://tutorialsninja.com/demo/index.php?route=account/login"}
+2022-04-16 21:00:17,726 DEBUG    http://127.0.0.1:51853 "POST /session/e5cc0052ef0c345ce8881e6324308ac8/url HTTP/1.1" 200 14
+2022-04-16 21:00:17,726 DEBUG    Finished Request
+2022-04-16 21:00:17,726 DEBUG    POST http://127.0.0.1:51853/session/e5cc0052ef0c345ce8881e6324308ac8/window/maximize {}
+2022-04-16 21:00:17,839 DEBUG    http://127.0.0.1:51853 "POST /session/e5cc0052ef0c345ce8881e6324308ac8/window/maximize HTTP/1.1" 200 51
+2022-04-16 21:00:17,839 DEBUG    Finished Request
+2022-04-16 21:00:17,840 DEBUG    DELETE http://127.0.0.1:51853/session/e5cc0052ef0c345ce8881e6324308ac8 {}
+2022-04-16 21:00:17,874 DEBUG    http://127.0.0.1:51853 "DELETE /session/e5cc0052ef0c345ce8881e6324308ac8 HTTP/1.1" 200 14
+2022-04-16 21:00:17,874 DEBUG    Finished Request
+2022-04-17 14:00:35,166 CRITICAL CRITICAL LEVEL
+2022-04-17 14:00:35,167 ERROR    ERROR LEVEL
+2022-04-17 14:00:35,167 WARNING  WARNING LEVEL
+2022-04-17 14:00:35,167 INFO     INFO LEVEL
+2022-04-17 14:00:35,167 DEBUG    DEBUG LEVEL
+2022-04-17 14:00:35,167 DEBUG    POST http://127.0.0.1:52410/session/926c01ecad0eb341034bbea625726f35/element {"using": "xpath", "value": "//*[@id=\"input-email\"]"}
+2022-04-17 14:00:35,173 DEBUG    http://127.0.0.1:52410 "POST /session/926c01ecad0eb341034bbea625726f35/element HTTP/1.1" 200 88
+2022-04-17 14:00:35,173 DEBUG    Finished Request
+2022-04-17 14:00:35,173 DEBUG    POST http://127.0.0.1:52410/session/926c01ecad0eb341034bbea625726f35/element/c042604c-85b6-4e83-bf96-dd271ec5fddf/value {"text": "Oliver@yahoo.com", "value": ["O", "l", "i", "v", "e", "r", "@", "y", "a", "h", "o", "o", ".", "c", "o", "m"], "id": "c042604c-85b6-4e83-bf96-dd271ec5fddf"}
+2022-04-17 14:00:35,251 DEBUG    http://127.0.0.1:52410 "POST /session/926c01ecad0eb341034bbea625726f35/element/c042604c-85b6-4e83-bf96-dd271ec5fddf/value HTTP/1.1" 200 14
+2022-04-17 14:00:35,251 DEBUG    Finished Request
+2022-04-17 14:00:35,251 DEBUG    DELETE http://127.0.0.1:52410/session/926c01ecad0eb341034bbea625726f35 {}
+2022-04-17 14:00:35,303 DEBUG    http://127.0.0.1:52410 "DELETE /session/926c01ecad0eb341034bbea625726f35 HTTP/1.1" 200 14
+2022-04-17 14:00:35,303 DEBUG    Finished Request
+2022-04-17 14:02:04,099 CRITICAL CRITICAL LEVEL
+2022-04-17 14:02:04,099 ERROR    ERROR LEVEL
+2022-04-17 14:02:04,099 WARNING  WARNING LEVEL
+2022-04-17 14:02:04,099 INFO     INFO LEVEL
+2022-04-17 14:02:04,099 DEBUG    DEBUG LEVEL
+2022-04-17 14:02:04,099 DEBUG    DELETE http://127.0.0.1:52437/session/5124c2eb6816f9f7e6761648c90767ed {}
+2022-04-17 14:02:04,369 DEBUG    http://127.0.0.1:52437 "DELETE /session/5124c2eb6816f9f7e6761648c90767ed HTTP/1.1" 200 14
+2022-04-17 14:02:04,369 DEBUG    Finished Request
+2022-04-17 14:04:00,075 CRITICAL CRITICAL LEVEL
+2022-04-17 14:04:00,075 ERROR    ERROR LEVEL
+2022-04-17 14:04:00,075 WARNING  WARNING LEVEL
+2022-04-17 14:04:00,075 INFO     INFO LEVEL
+2022-04-17 14:04:00,075 DEBUG    DEBUG LEVEL
+2022-04-17 14:04:00,075 INFO     ====== WebDriver manager ======
+2022-04-17 14:04:00,090 INFO     Current google-chrome version is 100.0.4896
+2022-04-17 14:04:00,090 INFO     Get LATEST driver version for 100.0.4896
+2022-04-17 14:04:00,090 DEBUG    Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2022-04-17 14:04:00,184 DEBUG    https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_100.0.4896 HTTP/1.1" 200 13
+2022-04-17 14:04:00,184 INFO     Driver [C:\Users\Butch\.wdm\drivers\chromedriver\win32\100.0.4896.60\chromedriver.exe] found in cache
+2022-04-17 14:04:00,716 DEBUG    POST http://127.0.0.1:52466/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2022-04-17 14:04:00,716 DEBUG    Starting new HTTP connection (1): 127.0.0.1:52466
+2022-04-17 14:04:01,340 DEBUG    http://127.0.0.1:52466 "POST /session HTTP/1.1" 200 789
+2022-04-17 14:04:01,340 DEBUG    Finished Request
+2022-04-17 14:04:01,356 DEBUG    POST http://127.0.0.1:52466/session/64992a58d54907d80b993d358bc95cdf/url {"url": "http://tutorialsninja.com/demo/index.php?route=account/login"}
+2022-04-17 14:04:02,908 DEBUG    http://127.0.0.1:52466 "POST /session/64992a58d54907d80b993d358bc95cdf/url HTTP/1.1" 200 14
+2022-04-17 14:04:02,908 DEBUG    Finished Request
+2022-04-17 14:04:02,908 DEBUG    POST http://127.0.0.1:52466/session/64992a58d54907d80b993d358bc95cdf/window/maximize {}
+2022-04-17 14:04:03,049 DEBUG    http://127.0.0.1:52466 "POST /session/64992a58d54907d80b993d358bc95cdf/window/maximize HTTP/1.1" 200 51
+2022-04-17 14:04:03,049 DEBUG    Finished Request
+2022-04-17 14:04:03,050 DEBUG    POST http://127.0.0.1:52466/session/64992a58d54907d80b993d358bc95cdf/element {"using": "xpath", "value": "//*[@id=\"input-email\"]"}
+2022-04-17 14:04:03,060 DEBUG    http://127.0.0.1:52466 "POST /session/64992a58d54907d80b993d358bc95cdf/element HTTP/1.1" 200 88
+2022-04-17 14:04:03,060 DEBUG    Finished Request
+2022-04-17 14:04:03,060 DEBUG    POST http://127.0.0.1:52466/session/64992a58d54907d80b993d358bc95cdf/element/5285f3cc-a330-4675-b946-578bb15e6e86/value {"text": "Oliver@yahoo.com", "value": ["O", "l", "i", "v", "e", "r", "@", "y", "a", "h", "o", "o", ".", "c", "o", "m"], "id": "5285f3cc-a330-4675-b946-578bb15e6e86"}
+2022-04-17 14:04:03,130 DEBUG    http://127.0.0.1:52466 "POST /session/64992a58d54907d80b993d358bc95cdf/element/5285f3cc-a330-4675-b946-578bb15e6e86/value HTTP/1.1" 200 14
+2022-04-17 14:04:03,130 DEBUG    Finished Request
+2022-04-17 14:04:03,131 DEBUG    POST http://127.0.0.1:52466/session/64992a58d54907d80b993d358bc95cdf/element {"using": "xpath", "value": "//*[@id=\"input-password\"]"}
+2022-04-17 14:04:03,140 DEBUG    http://127.0.0.1:52466 "POST /session/64992a58d54907d80b993d358bc95cdf/element HTTP/1.1" 200 88
+2022-04-17 14:04:03,141 DEBUG    Finished Request
+2022-04-17 14:04:03,141 DEBUG    POST http://127.0.0.1:52466/session/64992a58d54907d80b993d358bc95cdf/element/59a194f4-8355-4873-8cc7-0c11706430fb/value {"text": "12345", "value": ["1", "2", "3", "4", "5"], "id": "59a194f4-8355-4873-8cc7-0c11706430fb"}
+2022-04-17 14:04:03,185 DEBUG    http://127.0.0.1:52466 "POST /session/64992a58d54907d80b993d358bc95cdf/element/59a194f4-8355-4873-8cc7-0c11706430fb/value HTTP/1.1" 200 14
+2022-04-17 14:04:03,185 DEBUG    Finished Request
+2022-04-17 14:04:03,185 DEBUG    POST http://127.0.0.1:52466/session/64992a58d54907d80b993d358bc95cdf/element {"using": "xpath", "value": "//*[@id=\"content\"]/div/div[2]/div/form/input"}
+2022-04-17 14:04:03,193 DEBUG    http://127.0.0.1:52466 "POST /session/64992a58d54907d80b993d358bc95cdf/element HTTP/1.1" 200 88
+2022-04-17 14:04:03,194 DEBUG    Finished Request
+2022-04-17 14:04:03,194 DEBUG    POST http://127.0.0.1:52466/session/64992a58d54907d80b993d358bc95cdf/element/f55d1513-4bda-4882-9a07-5305d81a9e3c/click {"id": "f55d1513-4bda-4882-9a07-5305d81a9e3c"}
+2022-04-17 14:04:03,684 DEBUG    http://127.0.0.1:52466 "POST /session/64992a58d54907d80b993d358bc95cdf/element/f55d1513-4bda-4882-9a07-5305d81a9e3c/click HTTP/1.1" 200 14
+2022-04-17 14:04:03,684 DEBUG    Finished Request
+2022-04-17 14:04:03,684 DEBUG    POST http://127.0.0.1:52466/session/64992a58d54907d80b993d358bc95cdf/element {"using": "xpath", "value": "//*[@id=\"column-right\"]/div/a[13]"}
+2022-04-17 14:04:03,694 DEBUG    http://127.0.0.1:52466 "POST /session/64992a58d54907d80b993d358bc95cdf/element HTTP/1.1" 200 88
+2022-04-17 14:04:03,694 DEBUG    Finished Request
+2022-04-17 14:04:03,694 DEBUG    POST http://127.0.0.1:52466/session/64992a58d54907d80b993d358bc95cdf/element/ab909ce4-f531-4571-8ca8-e730b55f85c1/click {"id": "ab909ce4-f531-4571-8ca8-e730b55f85c1"}
+2022-04-17 14:04:04,061 DEBUG    http://127.0.0.1:52466 "POST /session/64992a58d54907d80b993d358bc95cdf/element/ab909ce4-f531-4571-8ca8-e730b55f85c1/click HTTP/1.1" 200 14
+2022-04-17 14:04:04,061 DEBUG    Finished Request
+2022-04-17 14:04:07,065 DEBUG    GET http://127.0.0.1:52466/session/64992a58d54907d80b993d358bc95cdf/title {}
+2022-04-17 14:04:07,070 DEBUG    http://127.0.0.1:52466 "GET /session/64992a58d54907d80b993d358bc95cdf/title HTTP/1.1" 200 26
+2022-04-17 14:04:07,071 DEBUG    Finished Request
+2022-04-17 14:04:07,071 DEBUG    DELETE http://127.0.0.1:52466/session/64992a58d54907d80b993d358bc95cdf {}
+2022-04-17 14:04:07,151 DEBUG    http://127.0.0.1:52466 "DELETE /session/64992a58d54907d80b993d358bc95cdf HTTP/1.1" 200 14
+2022-04-17 14:04:07,151 DEBUG    Finished Request
+2022-04-17 14:08:02,478 CRITICAL CRITICAL LEVEL
+2022-04-17 14:08:02,478 ERROR    ERROR LEVEL
+2022-04-17 14:08:02,478 WARNING  WARNING LEVEL
+2022-04-17 14:08:02,478 INFO     INFO LEVEL
+2022-04-17 14:08:02,478 DEBUG    DEBUG LEVEL
+2022-04-17 14:08:02,478 INFO     ====== WebDriver manager ======
+2022-04-17 14:08:02,494 INFO     Current google-chrome version is 100.0.4896
+2022-04-17 14:08:02,510 INFO     Get LATEST driver version for 100.0.4896
+2022-04-17 14:08:02,510 DEBUG    Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2022-04-17 14:08:02,650 DEBUG    https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_100.0.4896 HTTP/1.1" 200 13
+2022-04-17 14:08:02,650 INFO     Driver [C:\Users\Butch\.wdm\drivers\chromedriver\win32\100.0.4896.60\chromedriver.exe] found in cache
+2022-04-17 14:08:03,198 DEBUG    POST http://127.0.0.1:52558/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2022-04-17 14:08:03,198 DEBUG    Starting new HTTP connection (1): 127.0.0.1:52558
+2022-04-17 14:08:03,879 DEBUG    http://127.0.0.1:52558 "POST /session HTTP/1.1" 200 789
+2022-04-17 14:08:03,879 DEBUG    Finished Request
+2022-04-17 14:08:03,883 DEBUG    POST http://127.0.0.1:52558/session/e1bacbca1e6c0818a93014eea06c1417/url {"url": "http://tutorialsninja.com/demo/index.php?route=account/login"}
+2022-04-17 14:08:07,699 DEBUG    http://127.0.0.1:52558 "POST /session/e1bacbca1e6c0818a93014eea06c1417/url HTTP/1.1" 200 14
+2022-04-17 14:08:07,700 DEBUG    Finished Request
+2022-04-17 14:08:07,700 DEBUG    POST http://127.0.0.1:52558/session/e1bacbca1e6c0818a93014eea06c1417/window/maximize {}
+2022-04-17 14:08:07,825 DEBUG    http://127.0.0.1:52558 "POST /session/e1bacbca1e6c0818a93014eea06c1417/window/maximize HTTP/1.1" 200 51
+2022-04-17 14:08:07,825 DEBUG    Finished Request
+2022-04-17 14:08:07,825 DEBUG    POST http://127.0.0.1:52558/session/e1bacbca1e6c0818a93014eea06c1417/element {"using": "xpath", "value": "//*[@id=\"input-email\"]"}
+2022-04-17 14:08:07,825 DEBUG    http://127.0.0.1:52558 "POST /session/e1bacbca1e6c0818a93014eea06c1417/element HTTP/1.1" 200 88
+2022-04-17 14:08:07,825 DEBUG    Finished Request
+2022-04-17 14:08:07,825 DEBUG    POST http://127.0.0.1:52558/session/e1bacbca1e6c0818a93014eea06c1417/element/d0424e8f-5b77-4558-8fe3-2c09cf72351f/value {"text": "Oliver@yahoo.com", "value": ["O", "l", "i", "v", "e", "r", "@", "y", "a", "h", "o", "o", ".", "c", "o", "m"], "id": "d0424e8f-5b77-4558-8fe3-2c09cf72351f"}
+2022-04-17 14:08:07,903 DEBUG    http://127.0.0.1:52558 "POST /session/e1bacbca1e6c0818a93014eea06c1417/element/d0424e8f-5b77-4558-8fe3-2c09cf72351f/value HTTP/1.1" 200 14
+2022-04-17 14:08:07,904 DEBUG    Finished Request
+2022-04-17 14:08:07,904 DEBUG    POST http://127.0.0.1:52558/session/e1bacbca1e6c0818a93014eea06c1417/element {"using": "xpath", "value": "//*[@id=\"input-password\"]"}
+2022-04-17 14:08:07,915 DEBUG    http://127.0.0.1:52558 "POST /session/e1bacbca1e6c0818a93014eea06c1417/element HTTP/1.1" 200 88
+2022-04-17 14:08:07,915 DEBUG    Finished Request
+2022-04-17 14:08:07,915 DEBUG    POST http://127.0.0.1:52558/session/e1bacbca1e6c0818a93014eea06c1417/element/5d12be7a-b434-4529-8211-c8bf685505ed/value {"text": "12345", "value": ["1", "2", "3", "4", "5"], "id": "5d12be7a-b434-4529-8211-c8bf685505ed"}
+2022-04-17 14:08:07,964 DEBUG    http://127.0.0.1:52558 "POST /session/e1bacbca1e6c0818a93014eea06c1417/element/5d12be7a-b434-4529-8211-c8bf685505ed/value HTTP/1.1" 200 14
+2022-04-17 14:08:07,964 DEBUG    Finished Request
+2022-04-17 14:08:07,964 DEBUG    POST http://127.0.0.1:52558/session/e1bacbca1e6c0818a93014eea06c1417/element {"using": "xpath", "value": "//*[@id=\"content\"]/div/div[2]/div/form/input"}
+2022-04-17 14:08:07,974 DEBUG    http://127.0.0.1:52558 "POST /session/e1bacbca1e6c0818a93014eea06c1417/element HTTP/1.1" 200 88
+2022-04-17 14:08:07,974 DEBUG    Finished Request
+2022-04-17 14:08:07,974 DEBUG    POST http://127.0.0.1:52558/session/e1bacbca1e6c0818a93014eea06c1417/element/494a9503-f4ec-47dc-84e8-e1911c740582/click {"id": "494a9503-f4ec-47dc-84e8-e1911c740582"}
+2022-04-17 14:08:08,499 DEBUG    http://127.0.0.1:52558 "POST /session/e1bacbca1e6c0818a93014eea06c1417/element/494a9503-f4ec-47dc-84e8-e1911c740582/click HTTP/1.1" 200 14
+2022-04-17 14:08:08,499 DEBUG    Finished Request
+2022-04-17 14:08:08,499 DEBUG    POST http://127.0.0.1:52558/session/e1bacbca1e6c0818a93014eea06c1417/element {"using": "xpath", "value": "//*[@id=\"column-right\"]/div/a[13]"}
+2022-04-17 14:08:08,510 DEBUG    http://127.0.0.1:52558 "POST /session/e1bacbca1e6c0818a93014eea06c1417/element HTTP/1.1" 200 88
+2022-04-17 14:08:08,510 DEBUG    Finished Request
+2022-04-17 14:08:08,510 DEBUG    POST http://127.0.0.1:52558/session/e1bacbca1e6c0818a93014eea06c1417/element/72576655-a102-40ea-b7d6-1a9b21974db8/click {"id": "72576655-a102-40ea-b7d6-1a9b21974db8"}
+2022-04-17 14:08:08,918 DEBUG    http://127.0.0.1:52558 "POST /session/e1bacbca1e6c0818a93014eea06c1417/element/72576655-a102-40ea-b7d6-1a9b21974db8/click HTTP/1.1" 200 14
+2022-04-17 14:08:08,918 DEBUG    Finished Request
+2022-04-17 14:08:11,921 DEBUG    GET http://127.0.0.1:52558/session/e1bacbca1e6c0818a93014eea06c1417/title {}
+2022-04-17 14:08:11,934 DEBUG    http://127.0.0.1:52558 "GET /session/e1bacbca1e6c0818a93014eea06c1417/title HTTP/1.1" 200 26
+2022-04-17 14:08:11,934 DEBUG    Finished Request
+2022-04-17 14:08:11,935 DEBUG    DELETE http://127.0.0.1:52558/session/e1bacbca1e6c0818a93014eea06c1417 {}
+2022-04-17 14:08:12,111 DEBUG    http://127.0.0.1:52558 "DELETE /session/e1bacbca1e6c0818a93014eea06c1417 HTTP/1.1" 200 14
+2022-04-17 14:08:12,111 DEBUG    Finished Request
+2022-04-17 14:09:04,189 CRITICAL CRITICAL LEVEL
+2022-04-17 14:09:04,189 ERROR    ERROR LEVEL
+2022-04-17 14:09:04,189 WARNING  WARNING LEVEL
+2022-04-17 14:09:04,189 INFO     INFO LEVEL
+2022-04-17 14:09:04,189 DEBUG    DEBUG LEVEL
+2022-04-17 14:09:04,189 DEBUG    DELETE http://127.0.0.1:52589/session/88ef62c5fa31f71f7f174d668637f09c {}
+2022-04-17 14:09:04,236 DEBUG    http://127.0.0.1:52589 "DELETE /session/88ef62c5fa31f71f7f174d668637f09c HTTP/1.1" 200 14
+2022-04-17 14:09:04,236 DEBUG    Finished Request
+2022-04-17 14:29:09,392 CRITICAL CRITICAL LEVEL
+2022-04-17 14:29:09,392 ERROR    ERROR LEVEL
+2022-04-17 14:29:09,392 WARNING  WARNING LEVEL
+2022-04-17 14:29:09,392 INFO     INFO LEVEL
+2022-04-17 14:29:09,392 DEBUG    DEBUG LEVEL
+2022-04-17 14:29:09,392 INFO     ====== WebDriver manager ======
+2022-04-17 14:29:09,408 INFO     Current google-chrome version is 100.0.4896
+2022-04-17 14:29:09,408 INFO     Get LATEST driver version for 100.0.4896
+2022-04-17 14:29:09,424 DEBUG    Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2022-04-17 14:29:09,564 DEBUG    https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_100.0.4896 HTTP/1.1" 200 13
+2022-04-17 14:29:09,564 INFO     Driver [C:\Users\Butch\.wdm\drivers\chromedriver\win32\100.0.4896.60\chromedriver.exe] found in cache
+2022-04-17 14:29:10,096 DEBUG    POST http://127.0.0.1:52834/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2022-04-17 14:29:10,096 DEBUG    Starting new HTTP connection (1): 127.0.0.1:52834
+2022-04-17 14:29:10,765 DEBUG    http://127.0.0.1:52834 "POST /session HTTP/1.1" 200 789
+2022-04-17 14:29:10,765 DEBUG    Finished Request
+2022-04-17 14:29:10,769 DEBUG    POST http://127.0.0.1:52834/session/1815d81902e7929c7c6be0c77f9eeb80/url {"url": "http://tutorialsninja.com/demo/index.php?route=account/login"}
+2022-04-17 14:29:12,248 DEBUG    http://127.0.0.1:52834 "POST /session/1815d81902e7929c7c6be0c77f9eeb80/url HTTP/1.1" 200 14
+2022-04-17 14:29:12,248 DEBUG    Finished Request
+2022-04-17 14:29:12,248 DEBUG    POST http://127.0.0.1:52834/session/1815d81902e7929c7c6be0c77f9eeb80/window/maximize {}
+2022-04-17 14:29:12,369 DEBUG    http://127.0.0.1:52834 "POST /session/1815d81902e7929c7c6be0c77f9eeb80/window/maximize HTTP/1.1" 200 51
+2022-04-17 14:29:12,369 DEBUG    Finished Request
+2022-04-17 14:29:12,369 DEBUG    POST http://127.0.0.1:52834/session/1815d81902e7929c7c6be0c77f9eeb80/element {"using": "xpath", "value": "//*[@id=\"input-email\"]"}
+2022-04-17 14:29:12,369 DEBUG    http://127.0.0.1:52834 "POST /session/1815d81902e7929c7c6be0c77f9eeb80/element HTTP/1.1" 200 88
+2022-04-17 14:29:12,369 DEBUG    Finished Request
+2022-04-17 14:29:12,369 DEBUG    POST http://127.0.0.1:52834/session/1815d81902e7929c7c6be0c77f9eeb80/element/2dc6820d-f83c-4188-ad4e-065c11b714c6/value {"text": "Oliver@yahoo.com", "value": ["O", "l", "i", "v", "e", "r", "@", "y", "a", "h", "o", "o", ".", "c", "o", "m"], "id": "2dc6820d-f83c-4188-ad4e-065c11b714c6"}
+2022-04-17 14:29:12,463 DEBUG    http://127.0.0.1:52834 "POST /session/1815d81902e7929c7c6be0c77f9eeb80/element/2dc6820d-f83c-4188-ad4e-065c11b714c6/value HTTP/1.1" 200 14
+2022-04-17 14:29:12,464 DEBUG    Finished Request
+2022-04-17 14:29:12,464 DEBUG    POST http://127.0.0.1:52834/session/1815d81902e7929c7c6be0c77f9eeb80/element {"using": "xpath", "value": "//*[@id=\"input-password\"]"}
+2022-04-17 14:29:12,476 DEBUG    http://127.0.0.1:52834 "POST /session/1815d81902e7929c7c6be0c77f9eeb80/element HTTP/1.1" 200 88
+2022-04-17 14:29:12,476 DEBUG    Finished Request
+2022-04-17 14:29:12,477 DEBUG    POST http://127.0.0.1:52834/session/1815d81902e7929c7c6be0c77f9eeb80/element/499556e5-8182-422b-b06f-6b35e9f497fe/value {"text": "12345", "value": ["1", "2", "3", "4", "5"], "id": "499556e5-8182-422b-b06f-6b35e9f497fe"}
+2022-04-17 14:29:12,518 DEBUG    http://127.0.0.1:52834 "POST /session/1815d81902e7929c7c6be0c77f9eeb80/element/499556e5-8182-422b-b06f-6b35e9f497fe/value HTTP/1.1" 200 14
+2022-04-17 14:29:12,519 DEBUG    Finished Request
+2022-04-17 14:29:12,519 DEBUG    POST http://127.0.0.1:52834/session/1815d81902e7929c7c6be0c77f9eeb80/element {"using": "xpath", "value": "//*[@id=\"content\"]/div/div[2]/div/form/input"}
+2022-04-17 14:29:12,528 DEBUG    http://127.0.0.1:52834 "POST /session/1815d81902e7929c7c6be0c77f9eeb80/element HTTP/1.1" 200 88
+2022-04-17 14:29:12,528 DEBUG    Finished Request
+2022-04-17 14:29:12,528 DEBUG    POST http://127.0.0.1:52834/session/1815d81902e7929c7c6be0c77f9eeb80/element/9a441fe5-0469-4a8c-a6e6-6f8da50d6b27/click {"id": "9a441fe5-0469-4a8c-a6e6-6f8da50d6b27"}
+2022-04-17 14:29:13,049 DEBUG    http://127.0.0.1:52834 "POST /session/1815d81902e7929c7c6be0c77f9eeb80/element/9a441fe5-0469-4a8c-a6e6-6f8da50d6b27/click HTTP/1.1" 200 14
+2022-04-17 14:29:13,049 DEBUG    Finished Request
+2022-04-17 14:29:13,049 DEBUG    POST http://127.0.0.1:52834/session/1815d81902e7929c7c6be0c77f9eeb80/element {"using": "xpath", "value": "//*[@id=\"column-right\"]/div/a[13]"}
+2022-04-17 14:29:13,059 DEBUG    http://127.0.0.1:52834 "POST /session/1815d81902e7929c7c6be0c77f9eeb80/element HTTP/1.1" 200 88
+2022-04-17 14:29:13,059 DEBUG    Finished Request
+2022-04-17 14:29:13,060 DEBUG    POST http://127.0.0.1:52834/session/1815d81902e7929c7c6be0c77f9eeb80/element/f2b35488-9515-4eca-aa38-896facbe4367/click {"id": "f2b35488-9515-4eca-aa38-896facbe4367"}
+2022-04-17 14:29:13,442 DEBUG    http://127.0.0.1:52834 "POST /session/1815d81902e7929c7c6be0c77f9eeb80/element/f2b35488-9515-4eca-aa38-896facbe4367/click HTTP/1.1" 200 14
+2022-04-17 14:29:13,442 DEBUG    Finished Request
+2022-04-17 14:29:16,456 DEBUG    GET http://127.0.0.1:52834/session/1815d81902e7929c7c6be0c77f9eeb80/title {}
+2022-04-17 14:29:16,460 DEBUG    http://127.0.0.1:52834 "GET /session/1815d81902e7929c7c6be0c77f9eeb80/title HTTP/1.1" 200 26
+2022-04-17 14:29:16,460 DEBUG    Finished Request
+2022-04-17 14:29:16,460 DEBUG    DELETE http://127.0.0.1:52834/session/1815d81902e7929c7c6be0c77f9eeb80 {}
+2022-04-17 14:29:16,513 DEBUG    http://127.0.0.1:52834 "DELETE /session/1815d81902e7929c7c6be0c77f9eeb80 HTTP/1.1" 200 14
+2022-04-17 14:29:16,513 DEBUG    Finished Request2022-04-17 15:29:17,020 CRITICAL CRITICAL LEVEL
+2022-04-17 15:29:17,020 ERROR    ERROR LEVEL
+2022-04-17 15:29:17,020 WARNING  WARNING LEVEL
+2022-04-17 15:29:17,020 INFO     INFO LEVEL
+2022-04-17 15:29:17,020 DEBUG    DEBUG LEVEL
+2022-04-17 15:36:09,997 CRITICAL CRITICAL LEVEL
+2022-04-17 15:36:09,997 ERROR    ERROR LEVEL
+2022-04-17 15:36:09,997 WARNING  WARNING LEVEL
+2022-04-17 15:36:09,997 INFO     INFO LEVEL
+2022-04-17 15:36:09,997 DEBUG    DEBUG LEVEL
+2022-04-17 15:36:09,997 INFO     ====== WebDriver manager ======
+2022-04-17 15:36:10,028 INFO     Current google-chrome version is 100.0.4896
+2022-04-17 15:36:10,028 INFO     Get LATEST driver version for 100.0.4896
+2022-04-17 15:36:10,028 DEBUG    Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2022-04-17 15:36:10,169 DEBUG    https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_100.0.4896 HTTP/1.1" 200 13
+2022-04-17 15:36:10,169 INFO     Driver [C:\Users\Butch\.wdm\drivers\chromedriver\win32\100.0.4896.60\chromedriver.exe] found in cache
+2022-04-17 15:36:10,716 DEBUG    POST http://127.0.0.1:55516/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2022-04-17 15:36:10,716 DEBUG    Starting new HTTP connection (1): 127.0.0.1:55516
+2022-04-17 15:36:11,376 DEBUG    http://127.0.0.1:55516 "POST /session HTTP/1.1" 200 788
+2022-04-17 15:36:11,377 DEBUG    Finished Request
+2022-04-17 15:36:11,380 DEBUG    POST http://127.0.0.1:55516/session/9a7d56c1b3135ae7274b17ff53a4f33a/url {"url": "http://tutorialsninja.com/demo/index.php?route=account/login"}
+2022-04-17 15:36:13,015 DEBUG    http://127.0.0.1:55516 "POST /session/9a7d56c1b3135ae7274b17ff53a4f33a/url HTTP/1.1" 200 14
+2022-04-17 15:36:13,015 DEBUG    Finished Request
+2022-04-17 15:36:13,015 DEBUG    POST http://127.0.0.1:55516/session/9a7d56c1b3135ae7274b17ff53a4f33a/window/maximize {}
+2022-04-17 15:36:13,133 DEBUG    http://127.0.0.1:55516 "POST /session/9a7d56c1b3135ae7274b17ff53a4f33a/window/maximize HTTP/1.1" 200 51
+2022-04-17 15:36:13,133 DEBUG    Finished Request
+2022-04-17 15:36:13,133 DEBUG    POST http://127.0.0.1:55516/session/9a7d56c1b3135ae7274b17ff53a4f33a/element {"using": "xpath", "value": "//*[@id=\"input-email\"]"}
+2022-04-17 15:36:13,133 DEBUG    http://127.0.0.1:55516 "POST /session/9a7d56c1b3135ae7274b17ff53a4f33a/element HTTP/1.1" 200 88
+2022-04-17 15:36:13,133 DEBUG    Finished Request
+2022-04-17 15:36:13,133 DEBUG    POST http://127.0.0.1:55516/session/9a7d56c1b3135ae7274b17ff53a4f33a/element/d232b5da-ff8b-428f-a1d1-4615756d3fca/value {"text": "Oliver@yahoo.com", "value": ["O", "l", "i", "v", "e", "r", "@", "y", "a", "h", "o", "o", ".", "c", "o", "m"], "id": "d232b5da-ff8b-428f-a1d1-4615756d3fca"}
+2022-04-17 15:36:13,238 DEBUG    http://127.0.0.1:55516 "POST /session/9a7d56c1b3135ae7274b17ff53a4f33a/element/d232b5da-ff8b-428f-a1d1-4615756d3fca/value HTTP/1.1" 200 14
+2022-04-17 15:36:13,238 DEBUG    Finished Request
+2022-04-17 15:36:13,238 DEBUG    POST http://127.0.0.1:55516/session/9a7d56c1b3135ae7274b17ff53a4f33a/element {"using": "xpath", "value": "//*[@id=\"input-password\"]"}
+2022-04-17 15:36:13,254 DEBUG    http://127.0.0.1:55516 "POST /session/9a7d56c1b3135ae7274b17ff53a4f33a/element HTTP/1.1" 200 88
+2022-04-17 15:36:13,254 DEBUG    Finished Request
+2022-04-17 15:36:13,254 DEBUG    POST http://127.0.0.1:55516/session/9a7d56c1b3135ae7274b17ff53a4f33a/element/c37c971b-0e0b-4060-b795-52138da213a0/value {"text": "12345", "value": ["1", "2", "3", "4", "5"], "id": "c37c971b-0e0b-4060-b795-52138da213a0"}
+2022-04-17 15:36:13,312 DEBUG    http://127.0.0.1:55516 "POST /session/9a7d56c1b3135ae7274b17ff53a4f33a/element/c37c971b-0e0b-4060-b795-52138da213a0/value HTTP/1.1" 200 14
+2022-04-17 15:36:13,313 DEBUG    Finished Request
+2022-04-17 15:36:13,313 DEBUG    POST http://127.0.0.1:55516/session/9a7d56c1b3135ae7274b17ff53a4f33a/element {"using": "xpath", "value": "//*[@id=\"content\"]/div/div[2]/div/form/input"}
+2022-04-17 15:36:13,323 DEBUG    http://127.0.0.1:55516 "POST /session/9a7d56c1b3135ae7274b17ff53a4f33a/element HTTP/1.1" 200 88
+2022-04-17 15:36:13,323 DEBUG    Finished Request
+2022-04-17 15:36:13,324 DEBUG    POST http://127.0.0.1:55516/session/9a7d56c1b3135ae7274b17ff53a4f33a/element/a1a35a5f-65d1-4776-b46c-77ec1386b0b6/click {"id": "a1a35a5f-65d1-4776-b46c-77ec1386b0b6"}
+2022-04-17 15:36:13,766 DEBUG    http://127.0.0.1:55516 "POST /session/9a7d56c1b3135ae7274b17ff53a4f33a/element/a1a35a5f-65d1-4776-b46c-77ec1386b0b6/click HTTP/1.1" 200 14
+2022-04-17 15:36:13,767 DEBUG    Finished Request
+2022-04-17 15:36:13,767 DEBUG    POST http://127.0.0.1:55516/session/9a7d56c1b3135ae7274b17ff53a4f33a/element {"using": "xpath", "value": "//*[@id=\"column-right\"]/div/a[13]"}
+2022-04-17 15:36:13,777 DEBUG    http://127.0.0.1:55516 "POST /session/9a7d56c1b3135ae7274b17ff53a4f33a/element HTTP/1.1" 200 88
+2022-04-17 15:36:13,777 DEBUG    Finished Request
+2022-04-17 15:36:13,777 DEBUG    POST http://127.0.0.1:55516/session/9a7d56c1b3135ae7274b17ff53a4f33a/element/c8f78f87-79e5-4407-864c-61823b942d33/click {"id": "c8f78f87-79e5-4407-864c-61823b942d33"}
+2022-04-17 15:36:14,115 DEBUG    http://127.0.0.1:55516 "POST /session/9a7d56c1b3135ae7274b17ff53a4f33a/element/c8f78f87-79e5-4407-864c-61823b942d33/click HTTP/1.1" 200 14
+2022-04-17 15:36:14,116 DEBUG    Finished Request
+2022-04-17 15:36:17,127 DEBUG    GET http://127.0.0.1:55516/session/9a7d56c1b3135ae7274b17ff53a4f33a/title {}
+2022-04-17 15:36:17,127 DEBUG    http://127.0.0.1:55516 "GET /session/9a7d56c1b3135ae7274b17ff53a4f33a/title HTTP/1.1" 200 26
+2022-04-17 15:36:17,127 DEBUG    Finished Request
+2022-04-17 15:36:17,127 DEBUG    DELETE http://127.0.0.1:55516/session/9a7d56c1b3135ae7274b17ff53a4f33a {}
+2022-04-17 15:36:17,183 DEBUG    http://127.0.0.1:55516 "DELETE /session/9a7d56c1b3135ae7274b17ff53a4f33a HTTP/1.1" 200 14
+2022-04-17 15:36:17,183 DEBUG    Finished Request
+2022-04-17 16:15:33,595 CRITICAL CRITICAL LEVEL
+2022-04-17 16:15:33,595 ERROR    ERROR LEVEL
+2022-04-17 16:15:33,595 WARNING  WARNING LEVEL
+2022-04-17 16:15:33,595 INFO     INFO LEVEL
+2022-04-17 16:15:33,595 DEBUG    DEBUG LEVEL
+2022-04-17 16:16:52,213 CRITICAL CRITICAL LEVEL
+2022-04-17 16:16:52,213 ERROR    ERROR LEVEL
+2022-04-17 16:16:52,213 WARNING  WARNING LEVEL
+2022-04-17 16:16:52,213 INFO     INFO LEVEL
+2022-04-17 16:16:52,213 DEBUG    DEBUG LEVEL
+2022-04-17 16:18:25,099 CRITICAL CRITICAL LEVEL
+2022-04-17 16:18:25,099 ERROR    ERROR LEVEL
+2022-04-17 16:18:25,099 WARNING  WARNING LEVEL
+2022-04-17 16:18:25,099 INFO     INFO LEVEL
+2022-04-17 16:18:25,099 DEBUG    DEBUG LEVEL
+2022-04-17 16:19:21,971 CRITICAL CRITICAL LEVEL
+2022-04-17 16:19:21,971 ERROR    ERROR LEVEL
+2022-04-17 16:19:21,971 WARNING  WARNING LEVEL
+2022-04-17 16:19:21,971 INFO     INFO LEVEL
+2022-04-17 16:19:21,971 DEBUG    DEBUG LEVEL
+2022-04-17 16:21:17,192 CRITICAL CRITICAL LEVEL
+2022-04-17 16:21:17,192 ERROR    ERROR LEVEL
+2022-04-17 16:21:17,192 WARNING  WARNING LEVEL
+2022-04-17 16:21:17,192 INFO     INFO LEVEL
+2022-04-17 16:21:17,192 DEBUG    DEBUG LEVEL
+2022-04-17 16:21:17,192 DEBUG    POST http://127.0.0.1:56938/session/8334c7a1f34833d13af3881d7db24ab1/url {"url": "http://tutorialsninja.com/demo/index.php?route=account/login"}
+2022-04-17 16:21:18,774 DEBUG    http://127.0.0.1:56938 "POST /session/8334c7a1f34833d13af3881d7db24ab1/url HTTP/1.1" 200 14
+2022-04-17 16:21:18,775 DEBUG    Finished Request
+2022-04-17 16:21:18,775 DEBUG    POST http://127.0.0.1:56938/session/8334c7a1f34833d13af3881d7db24ab1/window/maximize {}
+2022-04-17 16:21:18,894 DEBUG    http://127.0.0.1:56938 "POST /session/8334c7a1f34833d13af3881d7db24ab1/window/maximize HTTP/1.1" 200 51
+2022-04-17 16:21:18,894 DEBUG    Finished Request
+2022-04-17 16:21:18,894 DEBUG    POST http://127.0.0.1:56938/session/8334c7a1f34833d13af3881d7db24ab1/element {"using": "xpath", "value": "//*[@id=\"input-email\"]"}
+2022-04-17 16:21:18,894 DEBUG    http://127.0.0.1:56938 "POST /session/8334c7a1f34833d13af3881d7db24ab1/element HTTP/1.1" 200 88
+2022-04-17 16:21:18,894 DEBUG    Finished Request
+2022-04-17 16:21:18,894 DEBUG    POST http://127.0.0.1:56938/session/8334c7a1f34833d13af3881d7db24ab1/element/31c09510-a2c5-406e-bc67-750fd669a9d9/value {"text": "Oliver@yahoo.com", "value": ["O", "l", "i", "v", "e", "r", "@", "y", "a", "h", "o", "o", ".", "c", "o", "m"], "id": "31c09510-a2c5-406e-bc67-750fd669a9d9"}
+2022-04-17 16:21:19,014 DEBUG    http://127.0.0.1:56938 "POST /session/8334c7a1f34833d13af3881d7db24ab1/element/31c09510-a2c5-406e-bc67-750fd669a9d9/value HTTP/1.1" 200 14
+2022-04-17 16:21:19,014 DEBUG    Finished Request
+2022-04-17 16:21:19,014 DEBUG    POST http://127.0.0.1:56938/session/8334c7a1f34833d13af3881d7db24ab1/element {"using": "xpath", "value": "//*[@id=\"input-password\"]"}
+2022-04-17 16:21:19,029 DEBUG    http://127.0.0.1:56938 "POST /session/8334c7a1f34833d13af3881d7db24ab1/element HTTP/1.1" 200 88
+2022-04-17 16:21:19,029 DEBUG    Finished Request
+2022-04-17 16:21:19,029 DEBUG    POST http://127.0.0.1:56938/session/8334c7a1f34833d13af3881d7db24ab1/element/e5c3eb1c-0958-4a70-8115-c66c48d77369/value {"text": "12345", "value": ["1", "2", "3", "4", "5"], "id": "e5c3eb1c-0958-4a70-8115-c66c48d77369"}
+2022-04-17 16:21:19,090 DEBUG    http://127.0.0.1:56938 "POST /session/8334c7a1f34833d13af3881d7db24ab1/element/e5c3eb1c-0958-4a70-8115-c66c48d77369/value HTTP/1.1" 200 14
+2022-04-17 16:21:19,090 DEBUG    Finished Request
+2022-04-17 16:21:19,090 DEBUG    POST http://127.0.0.1:56938/session/8334c7a1f34833d13af3881d7db24ab1/element {"using": "xpath", "value": "//*[@id=\"content\"]/div/div[2]/div/form/input"}
+2022-04-17 16:21:19,099 DEBUG    http://127.0.0.1:56938 "POST /session/8334c7a1f34833d13af3881d7db24ab1/element HTTP/1.1" 200 88
+2022-04-17 16:21:19,100 DEBUG    Finished Request
+2022-04-17 16:21:19,100 DEBUG    POST http://127.0.0.1:56938/session/8334c7a1f34833d13af3881d7db24ab1/element/d9cc2227-b2e1-4756-8965-615fe3a0663c/click {"id": "d9cc2227-b2e1-4756-8965-615fe3a0663c"}
+2022-04-17 16:21:19,523 DEBUG    http://127.0.0.1:56938 "POST /session/8334c7a1f34833d13af3881d7db24ab1/element/d9cc2227-b2e1-4756-8965-615fe3a0663c/click HTTP/1.1" 200 14
+2022-04-17 16:21:19,524 DEBUG    Finished Request
+2022-04-17 16:21:19,524 DEBUG    POST http://127.0.0.1:56938/session/8334c7a1f34833d13af3881d7db24ab1/element {"using": "xpath", "value": "//*[@id=\"column-right\"]/div/a[13]"}
+2022-04-17 16:21:19,534 DEBUG    http://127.0.0.1:56938 "POST /session/8334c7a1f34833d13af3881d7db24ab1/element HTTP/1.1" 200 88
+2022-04-17 16:21:19,534 DEBUG    Finished Request
+2022-04-17 16:21:19,534 DEBUG    POST http://127.0.0.1:56938/session/8334c7a1f34833d13af3881d7db24ab1/element/a894d12d-dc49-42c7-b606-553622e584a4/click {"id": "a894d12d-dc49-42c7-b606-553622e584a4"}
+2022-04-17 16:21:19,867 DEBUG    http://127.0.0.1:56938 "POST /session/8334c7a1f34833d13af3881d7db24ab1/element/a894d12d-dc49-42c7-b606-553622e584a4/click HTTP/1.1" 200 14
+2022-04-17 16:21:19,867 DEBUG    Finished Request
+2022-04-17 16:21:22,868 DEBUG    GET http://127.0.0.1:56938/session/8334c7a1f34833d13af3881d7db24ab1/title {}
+2022-04-17 16:21:22,868 DEBUG    http://127.0.0.1:56938 "GET /session/8334c7a1f34833d13af3881d7db24ab1/title HTTP/1.1" 200 26
+2022-04-17 16:21:22,868 DEBUG    Finished Request
+2022-04-17 16:21:22,868 DEBUG    DELETE http://127.0.0.1:56938/session/8334c7a1f34833d13af3881d7db24ab1 {}
+2022-04-17 16:21:22,915 DEBUG    http://127.0.0.1:56938 "DELETE /session/8334c7a1f34833d13af3881d7db24ab1 HTTP/1.1" 200 14
+2022-04-17 16:21:22,915 DEBUG    Finished Request
+2022-04-17 18:25:44,958 CRITICAL CRITICAL LEVEL
+2022-04-17 18:25:44,958 ERROR    ERROR LEVEL
+2022-04-17 18:25:44,958 WARNING  WARNING LEVEL
+2022-04-17 18:25:44,958 INFO     INFO LEVEL
+2022-04-17 18:25:44,958 DEBUG    DEBUG LEVEL
+2022-04-17 18:25:44,974 DEBUG    POST http://127.0.0.1:60054/session/f4ec51462b8e7250868408813a062c4b/url {"url": "http://tutorialsninja.com/demo/index.php?route=account/login"}
+2022-04-17 18:25:46,268 DEBUG    http://127.0.0.1:60054 "POST /session/f4ec51462b8e7250868408813a062c4b/url HTTP/1.1" 200 14
+2022-04-17 18:25:46,269 DEBUG    Finished Request
+2022-04-17 18:25:46,269 DEBUG    POST http://127.0.0.1:60054/session/f4ec51462b8e7250868408813a062c4b/window/maximize {}
+2022-04-17 18:25:46,387 DEBUG    http://127.0.0.1:60054 "POST /session/f4ec51462b8e7250868408813a062c4b/window/maximize HTTP/1.1" 200 51
+2022-04-17 18:25:46,387 DEBUG    Finished Request
+2022-04-17 18:25:46,387 DEBUG    DELETE http://127.0.0.1:60054/session/f4ec51462b8e7250868408813a062c4b {}
+2022-04-17 18:25:46,427 DEBUG    http://127.0.0.1:60054 "DELETE /session/f4ec51462b8e7250868408813a062c4b HTTP/1.1" 200 14
+2022-04-17 18:25:46,427 DEBUG    Finished Request
+2022-04-17 18:26:36,135 CRITICAL CRITICAL LEVEL
+2022-04-17 18:26:36,135 ERROR    ERROR LEVEL
+2022-04-17 18:26:36,136 WARNING  WARNING LEVEL
+2022-04-17 18:26:36,136 INFO     INFO LEVEL
+2022-04-17 18:26:36,136 DEBUG    DEBUG LEVEL
+2022-04-17 18:26:36,139 DEBUG    POST http://127.0.0.1:60083/session/99d55390b9b2e6614c5726ad06cdc6ee/url {"url": "http://tutorialsninja.com/demo/index.php?route=account/login"}
+2022-04-17 18:26:37,540 DEBUG    http://127.0.0.1:60083 "POST /session/99d55390b9b2e6614c5726ad06cdc6ee/url HTTP/1.1" 200 14
+2022-04-17 18:26:37,540 DEBUG    Finished Request
+2022-04-17 18:26:37,540 DEBUG    POST http://127.0.0.1:60083/session/99d55390b9b2e6614c5726ad06cdc6ee/window/maximize {}
+2022-04-17 18:26:37,657 DEBUG    http://127.0.0.1:60083 "POST /session/99d55390b9b2e6614c5726ad06cdc6ee/window/maximize HTTP/1.1" 200 51
+2022-04-17 18:26:37,657 DEBUG    Finished Request
+2022-04-17 18:26:37,657 DEBUG    POST http://127.0.0.1:60083/session/99d55390b9b2e6614c5726ad06cdc6ee/element {"using": "xpath", "value": "//*[@id=\"input-email\"]"}
+2022-04-17 18:26:37,672 DEBUG    http://127.0.0.1:60083 "POST /session/99d55390b9b2e6614c5726ad06cdc6ee/element HTTP/1.1" 200 88
+2022-04-17 18:26:37,672 DEBUG    Finished Request
+2022-04-17 18:26:37,672 DEBUG    POST http://127.0.0.1:60083/session/99d55390b9b2e6614c5726ad06cdc6ee/element/12b7b6d1-4b72-4856-8bdd-e725d1bd6080/value {"text": "Oliver@yahoo.com", "value": ["O", "l", "i", "v", "e", "r", "@", "y", "a", "h", "o", "o", ".", "c", "o", "m"], "id": "12b7b6d1-4b72-4856-8bdd-e725d1bd6080"}
+2022-04-17 18:26:37,767 DEBUG    http://127.0.0.1:60083 "POST /session/99d55390b9b2e6614c5726ad06cdc6ee/element/12b7b6d1-4b72-4856-8bdd-e725d1bd6080/value HTTP/1.1" 200 14
+2022-04-17 18:26:37,767 DEBUG    Finished Request
+2022-04-17 18:26:37,768 DEBUG    POST http://127.0.0.1:60083/session/99d55390b9b2e6614c5726ad06cdc6ee/element {"using": "xpath", "value": "//*[@id=\"input-password\"]"}
+2022-04-17 18:26:37,779 DEBUG    http://127.0.0.1:60083 "POST /session/99d55390b9b2e6614c5726ad06cdc6ee/element HTTP/1.1" 200 88
+2022-04-17 18:26:37,780 DEBUG    Finished Request
+2022-04-17 18:26:37,780 DEBUG    POST http://127.0.0.1:60083/session/99d55390b9b2e6614c5726ad06cdc6ee/element/b37b1890-0cae-460d-b996-efac8890a376/value {"text": "12345", "value": ["1", "2", "3", "4", "5"], "id": "b37b1890-0cae-460d-b996-efac8890a376"}
+2022-04-17 18:26:37,831 DEBUG    http://127.0.0.1:60083 "POST /session/99d55390b9b2e6614c5726ad06cdc6ee/element/b37b1890-0cae-460d-b996-efac8890a376/value HTTP/1.1" 200 14
+2022-04-17 18:26:37,832 DEBUG    Finished Request
+2022-04-17 18:26:37,832 DEBUG    POST http://127.0.0.1:60083/session/99d55390b9b2e6614c5726ad06cdc6ee/element {"using": "xpath", "value": "//*[@id=\"content\"]/div/div[2]/div/form/input"}
+2022-04-17 18:26:37,843 DEBUG    http://127.0.0.1:60083 "POST /session/99d55390b9b2e6614c5726ad06cdc6ee/element HTTP/1.1" 200 88
+2022-04-17 18:26:37,843 DEBUG    Finished Request
+2022-04-17 18:26:37,843 DEBUG    POST http://127.0.0.1:60083/session/99d55390b9b2e6614c5726ad06cdc6ee/element/3e0858b5-27d7-4d1d-acd6-c8e1a1514e1c/click {"id": "3e0858b5-27d7-4d1d-acd6-c8e1a1514e1c"}
+2022-04-17 18:26:38,285 DEBUG    http://127.0.0.1:60083 "POST /session/99d55390b9b2e6614c5726ad06cdc6ee/element/3e0858b5-27d7-4d1d-acd6-c8e1a1514e1c/click HTTP/1.1" 200 14
+2022-04-17 18:26:38,286 DEBUG    Finished Request
+2022-04-17 18:26:38,286 DEBUG    POST http://127.0.0.1:60083/session/99d55390b9b2e6614c5726ad06cdc6ee/element {"using": "xpath", "value": "//*[@id=\"column-right\"]/div/a[13]"}
+2022-04-17 18:26:38,295 DEBUG    http://127.0.0.1:60083 "POST /session/99d55390b9b2e6614c5726ad06cdc6ee/element HTTP/1.1" 200 88
+2022-04-17 18:26:38,295 DEBUG    Finished Request
+2022-04-17 18:26:38,296 DEBUG    POST http://127.0.0.1:60083/session/99d55390b9b2e6614c5726ad06cdc6ee/element/dcd91b25-9be6-47e1-84dc-b01f16b6546d/click {"id": "dcd91b25-9be6-47e1-84dc-b01f16b6546d"}
+2022-04-17 18:26:38,706 DEBUG    http://127.0.0.1:60083 "POST /session/99d55390b9b2e6614c5726ad06cdc6ee/element/dcd91b25-9be6-47e1-84dc-b01f16b6546d/click HTTP/1.1" 200 14
+2022-04-17 18:26:38,707 DEBUG    Finished Request
+2022-04-17 18:26:41,716 DEBUG    GET http://127.0.0.1:60083/session/99d55390b9b2e6614c5726ad06cdc6ee/title {}
+2022-04-17 18:26:41,718 DEBUG    http://127.0.0.1:60083 "GET /session/99d55390b9b2e6614c5726ad06cdc6ee/title HTTP/1.1" 200 26
+2022-04-17 18:26:41,718 DEBUG    Finished Request
+2022-04-17 18:26:41,718 DEBUG    DELETE http://127.0.0.1:60083/session/99d55390b9b2e6614c5726ad06cdc6ee {}
+2022-04-17 18:26:41,758 DEBUG    http://127.0.0.1:60083 "DELETE /session/99d55390b9b2e6614c5726ad06cdc6ee HTTP/1.1" 200 14
+2022-04-17 18:26:41,758 DEBUG    Finished Request
+2022-04-17 19:47:01,336 CRITICAL CRITICAL LEVEL
+2022-04-17 19:47:01,336 ERROR    ERROR LEVEL
+2022-04-17 19:47:01,336 WARNING  WARNING LEVEL
+2022-04-17 19:47:01,336 INFO     INFO LEVEL
+2022-04-17 19:47:01,336 DEBUG    DEBUG LEVEL
+2022-04-17 19:47:01,352 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/url {"url": "http://tutorialsninja.com/demo/index.php?route=account/register"}
+2022-04-17 19:47:06,201 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/url HTTP/1.1" 200 14
+2022-04-17 19:47:06,201 DEBUG    Finished Request
+2022-04-17 19:47:06,202 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/window/maximize {}
+2022-04-17 19:47:06,312 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/window/maximize HTTP/1.1" 200 51
+2022-04-17 19:47:06,312 DEBUG    Finished Request
+2022-04-17 19:47:06,312 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element {"using": "xpath", "value": "//*[@id=\"input-firstname\"]"}
+2022-04-17 19:47:06,312 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element HTTP/1.1" 200 88
+2022-04-17 19:47:06,312 DEBUG    Finished Request
+2022-04-17 19:47:06,312 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element/715356ce-6542-4e5e-9822-1efdfef17abe/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "715356ce-6542-4e5e-9822-1efdfef17abe"}
+2022-04-17 19:47:06,378 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element/715356ce-6542-4e5e-9822-1efdfef17abe/value HTTP/1.1" 200 14
+2022-04-17 19:47:06,378 DEBUG    Finished Request
+2022-04-17 19:47:06,378 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element {"using": "xpath", "value": "//*[@id=\"input-lastname\"]"}
+2022-04-17 19:47:06,389 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element HTTP/1.1" 200 88
+2022-04-17 19:47:06,390 DEBUG    Finished Request
+2022-04-17 19:47:06,390 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element/eeddbafc-c74c-4498-b7d2-eae9cb713b3e/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "eeddbafc-c74c-4498-b7d2-eae9cb713b3e"}
+2022-04-17 19:47:06,443 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element/eeddbafc-c74c-4498-b7d2-eae9cb713b3e/value HTTP/1.1" 200 14
+2022-04-17 19:47:06,443 DEBUG    Finished Request
+2022-04-17 19:47:06,443 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element {"using": "xpath", "value": "//*[@id=\"input-telephone\"]"}
+2022-04-17 19:47:06,453 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element HTTP/1.1" 200 88
+2022-04-17 19:47:06,453 DEBUG    Finished Request
+2022-04-17 19:47:06,453 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element/dc687a04-c285-4abb-a12b-0a0d10582c9f/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "dc687a04-c285-4abb-a12b-0a0d10582c9f"}
+2022-04-17 19:47:06,493 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element/dc687a04-c285-4abb-a12b-0a0d10582c9f/value HTTP/1.1" 200 14
+2022-04-17 19:47:06,493 DEBUG    Finished Request
+2022-04-17 19:47:06,493 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element {"using": "xpath", "value": "//*[@id=\"input-email\"]"}
+2022-04-17 19:47:06,503 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element HTTP/1.1" 200 88
+2022-04-17 19:47:06,503 DEBUG    Finished Request
+2022-04-17 19:47:06,503 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element/2dc3f93e-095d-4204-8b79-d923d721d972/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "2dc3f93e-095d-4204-8b79-d923d721d972"}
+2022-04-17 19:47:06,541 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element/2dc3f93e-095d-4204-8b79-d923d721d972/value HTTP/1.1" 200 14
+2022-04-17 19:47:06,541 DEBUG    Finished Request
+2022-04-17 19:47:06,541 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element {"using": "xpath", "value": "//*[@id=\"input-password\"]"}
+2022-04-17 19:47:06,550 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element HTTP/1.1" 200 88
+2022-04-17 19:47:06,550 DEBUG    Finished Request
+2022-04-17 19:47:06,550 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element/c02e7816-cc3d-4f5d-8a54-aae448215ad0/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "c02e7816-cc3d-4f5d-8a54-aae448215ad0"}
+2022-04-17 19:47:06,591 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element/c02e7816-cc3d-4f5d-8a54-aae448215ad0/value HTTP/1.1" 200 14
+2022-04-17 19:47:06,591 DEBUG    Finished Request
+2022-04-17 19:47:06,591 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element {"using": "xpath", "value": "//*[@id=\"input-confirm\"]"}
+2022-04-17 19:47:06,601 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element HTTP/1.1" 200 88
+2022-04-17 19:47:06,601 DEBUG    Finished Request
+2022-04-17 19:47:06,601 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element/f3fb18f1-b333-4d60-a9d6-7dc4a3eaea82/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "f3fb18f1-b333-4d60-a9d6-7dc4a3eaea82"}
+2022-04-17 19:47:06,643 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element/f3fb18f1-b333-4d60-a9d6-7dc4a3eaea82/value HTTP/1.1" 200 14
+2022-04-17 19:47:06,643 DEBUG    Finished Request
+2022-04-17 19:47:06,643 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element {"using": "xpath", "value": "//*[@id=\"content\"]/form/fieldset[3]/div/div/label[1]"}
+2022-04-17 19:47:06,653 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element HTTP/1.1" 200 88
+2022-04-17 19:47:06,653 DEBUG    Finished Request
+2022-04-17 19:47:06,653 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element/0e64c769-0b11-4dc8-9d3c-d255a7d027e5/click {"id": "0e64c769-0b11-4dc8-9d3c-d255a7d027e5"}
+2022-04-17 19:47:06,682 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element/0e64c769-0b11-4dc8-9d3c-d255a7d027e5/click HTTP/1.1" 200 14
+2022-04-17 19:47:06,682 DEBUG    Finished Request
+2022-04-17 19:47:06,682 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element {"using": "xpath", "value": "//*[@id=\"content\"]/form/div/div/input[1]"}
+2022-04-17 19:47:06,691 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element HTTP/1.1" 200 88
+2022-04-17 19:47:06,692 DEBUG    Finished Request
+2022-04-17 19:47:06,692 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element/eb9be10b-a216-411c-ac2f-aeb285b47e8a/click {"id": "eb9be10b-a216-411c-ac2f-aeb285b47e8a"}
+2022-04-17 19:47:06,721 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element/eb9be10b-a216-411c-ac2f-aeb285b47e8a/click HTTP/1.1" 200 14
+2022-04-17 19:47:06,721 DEBUG    Finished Request
+2022-04-17 19:47:06,721 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element {"using": "xpath", "value": "//*[@id=\"content\"]/form/div/div/input[2]"}
+2022-04-17 19:47:06,731 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element HTTP/1.1" 200 88
+2022-04-17 19:47:06,731 DEBUG    Finished Request
+2022-04-17 19:47:06,731 DEBUG    POST http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/element/3031971d-d705-4b64-8cd0-b01499650a08/click {"id": "3031971d-d705-4b64-8cd0-b01499650a08"}
+2022-04-17 19:47:06,771 DEBUG    http://127.0.0.1:61086 "POST /session/645cef95dfd6ba530e335b971f65c513/element/3031971d-d705-4b64-8cd0-b01499650a08/click HTTP/1.1" 200 14
+2022-04-17 19:47:06,771 DEBUG    Finished Request
+2022-04-17 19:47:09,774 DEBUG    GET http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/title {}
+2022-04-17 19:47:09,777 DEBUG    http://127.0.0.1:61086 "GET /session/645cef95dfd6ba530e335b971f65c513/title HTTP/1.1" 200 28
+2022-04-17 19:47:09,777 DEBUG    Finished Request
+2022-04-17 19:47:09,778 DEBUG    DELETE http://127.0.0.1:61086/session/645cef95dfd6ba530e335b971f65c513/window {}
+2022-04-17 19:47:09,844 DEBUG    http://127.0.0.1:61086 "DELETE /session/645cef95dfd6ba530e335b971f65c513/window HTTP/1.1" 200 12
+2022-04-17 19:47:09,845 DEBUG    Finished Request
+2022-04-17 19:48:14,564 CRITICAL CRITICAL LEVEL
+2022-04-17 19:48:14,565 ERROR    ERROR LEVEL
+2022-04-17 19:48:14,565 WARNING  WARNING LEVEL
+2022-04-17 19:48:14,565 INFO     INFO LEVEL
+2022-04-17 19:48:14,565 DEBUG    DEBUG LEVEL
+2022-04-17 19:48:14,567 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/url {"url": "http://tutorialsninja.com/demo/index.php?route=account/register"}
+2022-04-17 19:48:19,662 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/url HTTP/1.1" 200 14
+2022-04-17 19:48:19,662 DEBUG    Finished Request
+2022-04-17 19:48:19,662 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/window/maximize {}
+2022-04-17 19:48:19,779 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/window/maximize HTTP/1.1" 200 51
+2022-04-17 19:48:19,779 DEBUG    Finished Request
+2022-04-17 19:48:19,779 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element {"using": "xpath", "value": "//*[@id=\"input-firstname\"]"}
+2022-04-17 19:48:19,779 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element HTTP/1.1" 200 88
+2022-04-17 19:48:19,779 DEBUG    Finished Request
+2022-04-17 19:48:19,779 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element/062737dd-6122-4a59-b25f-beec7bf9f256/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "062737dd-6122-4a59-b25f-beec7bf9f256"}
+2022-04-17 19:48:19,842 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element/062737dd-6122-4a59-b25f-beec7bf9f256/value HTTP/1.1" 200 14
+2022-04-17 19:48:19,842 DEBUG    Finished Request
+2022-04-17 19:48:19,842 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element {"using": "xpath", "value": "//*[@id=\"input-lastname\"]"}
+2022-04-17 19:48:19,851 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element HTTP/1.1" 200 88
+2022-04-17 19:48:19,852 DEBUG    Finished Request
+2022-04-17 19:48:19,852 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element/584a8ab0-b7c6-41d8-b768-6a9305d1a5fb/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "584a8ab0-b7c6-41d8-b768-6a9305d1a5fb"}
+2022-04-17 19:48:19,905 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element/584a8ab0-b7c6-41d8-b768-6a9305d1a5fb/value HTTP/1.1" 200 14
+2022-04-17 19:48:19,906 DEBUG    Finished Request
+2022-04-17 19:48:19,906 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element {"using": "xpath", "value": "//*[@id=\"input-telephone\"]"}
+2022-04-17 19:48:19,915 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element HTTP/1.1" 200 88
+2022-04-17 19:48:19,916 DEBUG    Finished Request
+2022-04-17 19:48:19,916 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element/c2127b78-02aa-4f49-9aa6-0c9e15819b0f/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "c2127b78-02aa-4f49-9aa6-0c9e15819b0f"}
+2022-04-17 19:48:19,956 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element/c2127b78-02aa-4f49-9aa6-0c9e15819b0f/value HTTP/1.1" 200 14
+2022-04-17 19:48:19,956 DEBUG    Finished Request
+2022-04-17 19:48:19,957 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element {"using": "xpath", "value": "//*[@id=\"input-email\"]"}
+2022-04-17 19:48:19,967 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element HTTP/1.1" 200 88
+2022-04-17 19:48:19,967 DEBUG    Finished Request
+2022-04-17 19:48:19,967 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element/98c07c8a-2288-44c4-9e9e-ae6bae8e435b/value {"text": "errol@.com", "value": ["e", "r", "r", "o", "l", "@", ".", "c", "o", "m"], "id": "98c07c8a-2288-44c4-9e9e-ae6bae8e435b"}
+2022-04-17 19:48:20,011 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element/98c07c8a-2288-44c4-9e9e-ae6bae8e435b/value HTTP/1.1" 200 14
+2022-04-17 19:48:20,012 DEBUG    Finished Request
+2022-04-17 19:48:20,012 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element {"using": "xpath", "value": "//*[@id=\"input-password\"]"}
+2022-04-17 19:48:20,021 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element HTTP/1.1" 200 88
+2022-04-17 19:48:20,021 DEBUG    Finished Request
+2022-04-17 19:48:20,021 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element/79ba6fee-c41d-4268-a59e-537ad82a3e78/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "79ba6fee-c41d-4268-a59e-537ad82a3e78"}
+2022-04-17 19:48:20,062 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element/79ba6fee-c41d-4268-a59e-537ad82a3e78/value HTTP/1.1" 200 14
+2022-04-17 19:48:20,062 DEBUG    Finished Request
+2022-04-17 19:48:20,062 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element {"using": "xpath", "value": "//*[@id=\"input-confirm\"]"}
+2022-04-17 19:48:20,072 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element HTTP/1.1" 200 88
+2022-04-17 19:48:20,072 DEBUG    Finished Request
+2022-04-17 19:48:20,072 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element/fb17718c-7773-4dc2-80ca-6a8e627ae3ec/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "fb17718c-7773-4dc2-80ca-6a8e627ae3ec"}
+2022-04-17 19:48:20,111 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element/fb17718c-7773-4dc2-80ca-6a8e627ae3ec/value HTTP/1.1" 200 14
+2022-04-17 19:48:20,111 DEBUG    Finished Request
+2022-04-17 19:48:20,111 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element {"using": "xpath", "value": "//*[@id=\"content\"]/form/fieldset[3]/div/div/label[1]"}
+2022-04-17 19:48:20,121 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element HTTP/1.1" 200 88
+2022-04-17 19:48:20,121 DEBUG    Finished Request
+2022-04-17 19:48:20,122 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element/c039b4f2-3cff-45f1-bb41-762d031cc3a6/click {"id": "c039b4f2-3cff-45f1-bb41-762d031cc3a6"}
+2022-04-17 19:48:20,153 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element/c039b4f2-3cff-45f1-bb41-762d031cc3a6/click HTTP/1.1" 200 14
+2022-04-17 19:48:20,153 DEBUG    Finished Request
+2022-04-17 19:48:20,153 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element {"using": "xpath", "value": "//*[@id=\"content\"]/form/div/div/input[1]"}
+2022-04-17 19:48:20,163 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element HTTP/1.1" 200 88
+2022-04-17 19:48:20,163 DEBUG    Finished Request
+2022-04-17 19:48:20,163 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element/0109ec3d-2b03-4ca6-b7de-32a0d92bf86c/click {"id": "0109ec3d-2b03-4ca6-b7de-32a0d92bf86c"}
+2022-04-17 19:48:20,193 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element/0109ec3d-2b03-4ca6-b7de-32a0d92bf86c/click HTTP/1.1" 200 14
+2022-04-17 19:48:20,193 DEBUG    Finished Request
+2022-04-17 19:48:20,193 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element {"using": "xpath", "value": "//*[@id=\"content\"]/form/div/div/input[2]"}
+2022-04-17 19:48:20,203 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element HTTP/1.1" 200 88
+2022-04-17 19:48:20,203 DEBUG    Finished Request
+2022-04-17 19:48:20,203 DEBUG    POST http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/element/5eec6926-969a-4c70-a2e0-f828462f9cc1/click {"id": "5eec6926-969a-4c70-a2e0-f828462f9cc1"}
+2022-04-17 19:48:20,240 DEBUG    http://127.0.0.1:61127 "POST /session/3a9f29f8e869627a449195174a7d079f/element/5eec6926-969a-4c70-a2e0-f828462f9cc1/click HTTP/1.1" 200 14
+2022-04-17 19:48:20,241 DEBUG    Finished Request
+2022-04-17 19:48:23,250 DEBUG    GET http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/title {}
+2022-04-17 19:48:23,253 DEBUG    http://127.0.0.1:61127 "GET /session/3a9f29f8e869627a449195174a7d079f/title HTTP/1.1" 200 28
+2022-04-17 19:48:23,253 DEBUG    Finished Request
+2022-04-17 19:48:23,255 DEBUG    DELETE http://127.0.0.1:61127/session/3a9f29f8e869627a449195174a7d079f/window {}
+2022-04-17 19:48:23,308 DEBUG    http://127.0.0.1:61127 "DELETE /session/3a9f29f8e869627a449195174a7d079f/window HTTP/1.1" 200 12
+2022-04-17 19:48:23,308 DEBUG    Finished Request
+2022-04-17 19:48:35,622 CRITICAL CRITICAL LEVEL
+2022-04-17 19:48:35,622 ERROR    ERROR LEVEL
+2022-04-17 19:48:35,622 WARNING  WARNING LEVEL
+2022-04-17 19:48:35,622 INFO     INFO LEVEL
+2022-04-17 19:48:35,622 DEBUG    DEBUG LEVEL
+2022-04-17 19:48:35,637 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/url {"url": "http://tutorialsninja.com/demo/index.php?route=account/register"}
+2022-04-17 19:48:37,712 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/url HTTP/1.1" 200 14
+2022-04-17 19:48:37,712 DEBUG    Finished Request
+2022-04-17 19:48:37,712 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/window/maximize {}
+2022-04-17 19:48:37,827 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/window/maximize HTTP/1.1" 200 51
+2022-04-17 19:48:37,827 DEBUG    Finished Request
+2022-04-17 19:48:37,827 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element {"using": "xpath", "value": "//*[@id=\"input-firstname\"]"}
+2022-04-17 19:48:37,838 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element HTTP/1.1" 200 88
+2022-04-17 19:48:37,838 DEBUG    Finished Request
+2022-04-17 19:48:37,838 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/2a506829-9a56-44f9-924d-1c14af104b32/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "2a506829-9a56-44f9-924d-1c14af104b32"}
+2022-04-17 19:48:37,890 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/2a506829-9a56-44f9-924d-1c14af104b32/value HTTP/1.1" 200 14
+2022-04-17 19:48:37,891 DEBUG    Finished Request
+2022-04-17 19:48:37,891 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element {"using": "xpath", "value": "//*[@id=\"input-lastname\"]"}
+2022-04-17 19:48:37,901 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element HTTP/1.1" 200 88
+2022-04-17 19:48:37,901 DEBUG    Finished Request
+2022-04-17 19:48:37,901 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/ab029393-168e-4844-a559-7e2b2635fd25/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "ab029393-168e-4844-a559-7e2b2635fd25"}
+2022-04-17 19:48:37,959 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/ab029393-168e-4844-a559-7e2b2635fd25/value HTTP/1.1" 200 14
+2022-04-17 19:48:37,959 DEBUG    Finished Request
+2022-04-17 19:48:37,959 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element {"using": "xpath", "value": "//*[@id=\"input-telephone\"]"}
+2022-04-17 19:48:37,971 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element HTTP/1.1" 200 88
+2022-04-17 19:48:37,971 DEBUG    Finished Request
+2022-04-17 19:48:37,972 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/4411f786-ccf0-45c4-a357-e9e628234a2d/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "4411f786-ccf0-45c4-a357-e9e628234a2d"}
+2022-04-17 19:48:38,017 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/4411f786-ccf0-45c4-a357-e9e628234a2d/value HTTP/1.1" 200 14
+2022-04-17 19:48:38,017 DEBUG    Finished Request
+2022-04-17 19:48:38,017 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element {"using": "xpath", "value": "//*[@id=\"input-email\"]"}
+2022-04-17 19:48:38,025 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element HTTP/1.1" 200 88
+2022-04-17 19:48:38,026 DEBUG    Finished Request
+2022-04-17 19:48:38,026 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/46c81a76-8666-4aa1-b88d-13e6214add24/value {"text": "errol@yahoo.com", "value": ["e", "r", "r", "o", "l", "@", "y", "a", "h", "o", "o", ".", "c", "o", "m"], "id": "46c81a76-8666-4aa1-b88d-13e6214add24"}
+2022-04-17 19:48:38,078 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/46c81a76-8666-4aa1-b88d-13e6214add24/value HTTP/1.1" 200 14
+2022-04-17 19:48:38,079 DEBUG    Finished Request
+2022-04-17 19:48:38,079 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element {"using": "xpath", "value": "//*[@id=\"input-password\"]"}
+2022-04-17 19:48:38,088 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element HTTP/1.1" 200 88
+2022-04-17 19:48:38,088 DEBUG    Finished Request
+2022-04-17 19:48:38,088 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/d4227989-5943-48ab-9c69-75c80f6bedd9/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "d4227989-5943-48ab-9c69-75c80f6bedd9"}
+2022-04-17 19:48:38,132 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/d4227989-5943-48ab-9c69-75c80f6bedd9/value HTTP/1.1" 200 14
+2022-04-17 19:48:38,132 DEBUG    Finished Request
+2022-04-17 19:48:38,132 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element {"using": "xpath", "value": "//*[@id=\"input-confirm\"]"}
+2022-04-17 19:48:38,140 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element HTTP/1.1" 200 88
+2022-04-17 19:48:38,140 DEBUG    Finished Request
+2022-04-17 19:48:38,140 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/8635a18e-44f9-4db0-b7af-64009454097d/value {"text": "errol", "value": ["e", "r", "r", "o", "l"], "id": "8635a18e-44f9-4db0-b7af-64009454097d"}
+2022-04-17 19:48:38,185 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/8635a18e-44f9-4db0-b7af-64009454097d/value HTTP/1.1" 200 14
+2022-04-17 19:48:38,186 DEBUG    Finished Request
+2022-04-17 19:48:38,186 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element {"using": "xpath", "value": "//*[@id=\"content\"]/form/fieldset[3]/div/div/label[1]"}
+2022-04-17 19:48:38,196 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element HTTP/1.1" 200 88
+2022-04-17 19:48:38,196 DEBUG    Finished Request
+2022-04-17 19:48:38,196 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/9d247074-bfdc-4763-8b23-fd43ab1628cc/click {"id": "9d247074-bfdc-4763-8b23-fd43ab1628cc"}
+2022-04-17 19:48:38,226 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/9d247074-bfdc-4763-8b23-fd43ab1628cc/click HTTP/1.1" 200 14
+2022-04-17 19:48:38,226 DEBUG    Finished Request
+2022-04-17 19:48:38,226 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element {"using": "xpath", "value": "//*[@id=\"content\"]/form/div/div/input[1]"}
+2022-04-17 19:48:38,235 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element HTTP/1.1" 200 88
+2022-04-17 19:48:38,235 DEBUG    Finished Request
+2022-04-17 19:48:38,236 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/3bfd6163-2643-490f-84e0-07c4076343ff/click {"id": "3bfd6163-2643-490f-84e0-07c4076343ff"}
+2022-04-17 19:48:38,266 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/3bfd6163-2643-490f-84e0-07c4076343ff/click HTTP/1.1" 200 14
+2022-04-17 19:48:38,266 DEBUG    Finished Request
+2022-04-17 19:48:38,266 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element {"using": "xpath", "value": "//*[@id=\"content\"]/form/div/div/input[2]"}
+2022-04-17 19:48:38,276 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element HTTP/1.1" 200 88
+2022-04-17 19:48:38,276 DEBUG    Finished Request
+2022-04-17 19:48:38,276 DEBUG    POST http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/18035ee6-80f9-4e5c-bacb-578bad4b6e40/click {"id": "18035ee6-80f9-4e5c-bacb-578bad4b6e40"}
+2022-04-17 19:48:38,665 DEBUG    http://127.0.0.1:61155 "POST /session/e1c7d2e98ac6ff5d55bbc27b604615ce/element/18035ee6-80f9-4e5c-bacb-578bad4b6e40/click HTTP/1.1" 200 14
+2022-04-17 19:48:38,666 DEBUG    Finished Request
+2022-04-17 19:48:41,668 DEBUG    GET http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/title {}
+2022-04-17 19:48:41,668 DEBUG    http://127.0.0.1:61155 "GET /session/e1c7d2e98ac6ff5d55bbc27b604615ce/title HTTP/1.1" 200 42
+2022-04-17 19:48:41,668 DEBUG    Finished Request
+2022-04-17 19:48:41,668 DEBUG    DELETE http://127.0.0.1:61155/session/e1c7d2e98ac6ff5d55bbc27b604615ce/window {}
+2022-04-17 19:48:41,717 DEBUG    http://127.0.0.1:61155 "DELETE /session/e1c7d2e98ac6ff5d55bbc27b604615ce/window HTTP/1.1" 200 12
+2022-04-17 19:48:41,717 DEBUG    Finished Request
+2022-04-17 19:48:56,550 CRITICAL CRITICAL LEVEL
+2022-04-17 19:48:56,550 ERROR    ERROR LEVEL
+2022-04-17 19:48:56,550 WARNING  WARNING LEVEL
+2022-04-17 19:48:56,550 INFO     INFO LEVEL
+2022-04-17 19:48:56,550 DEBUG    DEBUG LEVEL
+2022-04-17 19:48:56,553 DEBUG    POST http://127.0.0.1:61182/session/f6973f777c0ab445baf7859cfe955010/url {"url": "http://tutorialsninja.com/demo/index.php?route=product/category&path=18"}
+2022-04-17 19:48:58,319 DEBUG    http://127.0.0.1:61182 "POST /session/f6973f777c0ab445baf7859cfe955010/url HTTP/1.1" 200 14
+2022-04-17 19:48:58,320 DEBUG    Finished Request
+2022-04-17 19:48:58,320 DEBUG    POST http://127.0.0.1:61182/session/f6973f777c0ab445baf7859cfe955010/window/maximize {}
+2022-04-17 19:48:58,440 DEBUG    http://127.0.0.1:61182 "POST /session/f6973f777c0ab445baf7859cfe955010/window/maximize HTTP/1.1" 200 51
+2022-04-17 19:48:58,440 DEBUG    Finished Request
+2022-04-17 19:48:58,440 DEBUG    POST http://127.0.0.1:61182/session/f6973f777c0ab445baf7859cfe955010/element {"using": "xpath", "value": "//a[text()=\"HP LP3065\"]"}
+2022-04-17 19:48:58,440 DEBUG    http://127.0.0.1:61182 "POST /session/f6973f777c0ab445baf7859cfe955010/element HTTP/1.1" 200 88
+2022-04-17 19:48:58,440 DEBUG    Finished Request
+2022-04-17 19:48:58,440 DEBUG    POST http://127.0.0.1:61182/session/f6973f777c0ab445baf7859cfe955010/element/79518358-8b4e-45bf-92fb-3c68b098741b/click {"id": "79518358-8b4e-45bf-92fb-3c68b098741b"}
+2022-04-17 19:49:00,763 DEBUG    http://127.0.0.1:61182 "POST /session/f6973f777c0ab445baf7859cfe955010/element/79518358-8b4e-45bf-92fb-3c68b098741b/click HTTP/1.1" 200 14
+2022-04-17 19:49:00,764 DEBUG    Finished Request
+2022-04-17 19:49:00,764 DEBUG    POST http://127.0.0.1:61182/session/f6973f777c0ab445baf7859cfe955010/element {"using": "xpath", "value": "//button[@id=\"button-cart\"]"}
+2022-04-17 19:49:00,775 DEBUG    http://127.0.0.1:61182 "POST /session/f6973f777c0ab445baf7859cfe955010/element HTTP/1.1" 200 88
+2022-04-17 19:49:00,775 DEBUG    Finished Request
+2022-04-17 19:49:00,776 DEBUG    POST http://127.0.0.1:61182/session/f6973f777c0ab445baf7859cfe955010/element/4f2b2b99-9cb4-483d-b478-824d3f775874/click {"id": "4f2b2b99-9cb4-483d-b478-824d3f775874"}
+2022-04-17 19:49:00,806 DEBUG    http://127.0.0.1:61182 "POST /session/f6973f777c0ab445baf7859cfe955010/element/4f2b2b99-9cb4-483d-b478-824d3f775874/click HTTP/1.1" 200 14
+2022-04-17 19:49:00,806 DEBUG    Finished Request
+2022-04-17 19:49:00,806 DEBUG    POST http://127.0.0.1:61182/session/f6973f777c0ab445baf7859cfe955010/element {"using": "xpath", "value": "cart-total"}
+2022-04-17 19:49:00,818 DEBUG    http://127.0.0.1:61182 "POST /session/f6973f777c0ab445baf7859cfe955010/element HTTP/1.1" 404 1016
+2022-04-17 19:49:00,818 DEBUG    Finished Request
+2022-04-17 19:49:00,820 DEBUG    POST http://127.0.0.1:61182/session/f6973f777c0ab445baf7859cfe955010/element {"using": "xpath", "value": "//input[@id=\"button-shipping-method\"]"}
+2022-04-17 19:49:00,835 DEBUG    http://127.0.0.1:61182 "POST /session/f6973f777c0ab445baf7859cfe955010/element HTTP/1.1" 404 1045
+2022-04-17 19:49:00,835 DEBUG    Finished Request
+2022-04-17 19:49:00,836 DEBUG    DELETE http://127.0.0.1:61182/session/f6973f777c0ab445baf7859cfe955010/window {}
+2022-04-17 19:49:05,012 DEBUG    http://127.0.0.1:61182 "DELETE /session/f6973f777c0ab445baf7859cfe955010/window HTTP/1.1" 200 12
+2022-04-17 19:49:05,012 DEBUG    Finished Request
+2022-04-17 19:51:51,523 CRITICAL CRITICAL LEVEL
+2022-04-17 19:51:51,523 ERROR    ERROR LEVEL
+2022-04-17 19:51:51,523 WARNING  WARNING LEVEL
+2022-04-17 19:51:51,523 INFO     INFO LEVEL
+2022-04-17 19:51:51,523 DEBUG    DEBUG LEVEL
+2022-04-17 19:51:51,526 DEBUG    POST http://127.0.0.1:61240/session/0ca9931e73fbada376207b162fb1e181/url {"url": "http://tutorialsninja.com/demo/index.php?route=product/category&path=18"}
+2022-04-17 19:51:53,745 DEBUG    http://127.0.0.1:61240 "POST /session/0ca9931e73fbada376207b162fb1e181/url HTTP/1.1" 200 14
+2022-04-17 19:51:53,745 DEBUG    Finished Request
+2022-04-17 19:51:53,745 DEBUG    POST http://127.0.0.1:61240/session/0ca9931e73fbada376207b162fb1e181/window/maximize {}
+2022-04-17 19:51:53,881 DEBUG    http://127.0.0.1:61240 "POST /session/0ca9931e73fbada376207b162fb1e181/window/maximize HTTP/1.1" 200 51
+2022-04-17 19:51:53,881 DEBUG    Finished Request
+2022-04-17 19:51:53,881 DEBUG    POST http://127.0.0.1:61240/session/0ca9931e73fbada376207b162fb1e181/element {"using": "xpath", "value": "//a[text()=\"HP LP3065\"]"}
+2022-04-17 19:51:53,881 DEBUG    http://127.0.0.1:61240 "POST /session/0ca9931e73fbada376207b162fb1e181/element HTTP/1.1" 200 88
+2022-04-17 19:51:53,881 DEBUG    Finished Request
+2022-04-17 19:51:53,881 DEBUG    POST http://127.0.0.1:61240/session/0ca9931e73fbada376207b162fb1e181/element/b26547eb-9f43-4275-8cce-d43afb13965f/click {"id": "b26547eb-9f43-4275-8cce-d43afb13965f"}
+2022-04-17 19:51:56,559 DEBUG    http://127.0.0.1:61240 "POST /session/0ca9931e73fbada376207b162fb1e181/element/b26547eb-9f43-4275-8cce-d43afb13965f/click HTTP/1.1" 200 14
+2022-04-17 19:51:56,560 DEBUG    Finished Request
+2022-04-17 19:51:56,560 DEBUG    POST http://127.0.0.1:61240/session/0ca9931e73fbada376207b162fb1e181/element {"using": "xpath", "value": "//button[@id=\"button-cart\"]"}
+2022-04-17 19:51:56,570 DEBUG    http://127.0.0.1:61240 "POST /session/0ca9931e73fbada376207b162fb1e181/element HTTP/1.1" 200 88
+2022-04-17 19:51:56,570 DEBUG    Finished Request
+2022-04-17 19:51:56,570 DEBUG    POST http://127.0.0.1:61240/session/0ca9931e73fbada376207b162fb1e181/element/d253ec61-8f65-4d63-bee7-6029a8f9b76c/click {"id": "d253ec61-8f65-4d63-bee7-6029a8f9b76c"}
+2022-04-17 19:51:56,598 DEBUG    http://127.0.0.1:61240 "POST /session/0ca9931e73fbada376207b162fb1e181/element/d253ec61-8f65-4d63-bee7-6029a8f9b76c/click HTTP/1.1" 200 14
+2022-04-17 19:51:56,598 DEBUG    Finished Request
+2022-04-17 19:51:56,599 DEBUG    POST http://127.0.0.1:61240/session/0ca9931e73fbada376207b162fb1e181/element {"using": "xpath", "value": "cart-total"}
+2022-04-17 19:51:56,610 DEBUG    http://127.0.0.1:61240 "POST /session/0ca9931e73fbada376207b162fb1e181/element HTTP/1.1" 404 1016
+2022-04-17 19:51:56,610 DEBUG    Finished Request
+2022-04-17 19:51:56,614 DEBUG    POST http://127.0.0.1:61240/session/0ca9931e73fbada376207b162fb1e181/element {"using": "xpath", "value": "//input[@id=\"button-shipping-method\"]"}
+2022-04-17 19:51:56,625 DEBUG    http://127.0.0.1:61240 "POST /session/0ca9931e73fbada376207b162fb1e181/element HTTP/1.1" 404 1045
+2022-04-17 19:51:56,625 DEBUG    Finished Request
+2022-04-17 19:51:56,625 DEBUG    DELETE http://127.0.0.1:61240/session/0ca9931e73fbada376207b162fb1e181/window {}
+2022-04-17 19:52:00,743 DEBUG    http://127.0.0.1:61240 "DELETE /session/0ca9931e73fbada376207b162fb1e181/window HTTP/1.1" 200 12
+2022-04-17 19:52:00,743 DEBUG    Finished Request
+2022-04-17 19:53:12,588 CRITICAL CRITICAL LEVEL
+2022-04-17 19:53:12,588 ERROR    ERROR LEVEL
+2022-04-17 19:53:12,588 WARNING  WARNING LEVEL
+2022-04-17 19:53:12,588 INFO     INFO LEVEL
+2022-04-17 19:53:12,588 DEBUG    DEBUG LEVEL
+2022-04-17 19:53:12,593 DEBUG    POST http://127.0.0.1:61285/session/3ad2f991206b2f2938755bc1e44ebe3b/url {"url": "http://tutorialsninja.com/demo/index.php?route=product/category&path=18"}
+2022-04-17 19:53:14,929 DEBUG    http://127.0.0.1:61285 "POST /session/3ad2f991206b2f2938755bc1e44ebe3b/url HTTP/1.1" 200 14
+2022-04-17 19:53:14,929 DEBUG    Finished Request
+2022-04-17 19:53:14,929 DEBUG    POST http://127.0.0.1:61285/session/3ad2f991206b2f2938755bc1e44ebe3b/window/maximize {}
+2022-04-17 19:53:15,057 DEBUG    http://127.0.0.1:61285 "POST /session/3ad2f991206b2f2938755bc1e44ebe3b/window/maximize HTTP/1.1" 200 51
+2022-04-17 19:53:15,057 DEBUG    Finished Request
+2022-04-17 19:53:15,058 DEBUG    POST http://127.0.0.1:61285/session/3ad2f991206b2f2938755bc1e44ebe3b/element {"using": "xpath", "value": "//a[text()=\"HP LP3065\"]"}
+2022-04-17 19:53:15,064 DEBUG    http://127.0.0.1:61285 "POST /session/3ad2f991206b2f2938755bc1e44ebe3b/element HTTP/1.1" 200 88
+2022-04-17 19:53:15,064 DEBUG    Finished Request
+2022-04-17 19:53:15,064 DEBUG    POST http://127.0.0.1:61285/session/3ad2f991206b2f2938755bc1e44ebe3b/element/6d99f74a-4bef-4ee5-90e0-e62193fd4a92/click {"id": "6d99f74a-4bef-4ee5-90e0-e62193fd4a92"}
+2022-04-17 19:53:17,636 DEBUG    http://127.0.0.1:61285 "POST /session/3ad2f991206b2f2938755bc1e44ebe3b/element/6d99f74a-4bef-4ee5-90e0-e62193fd4a92/click HTTP/1.1" 200 14
+2022-04-17 19:53:17,636 DEBUG    Finished Request
+2022-04-17 19:53:17,637 DEBUG    POST http://127.0.0.1:61285/session/3ad2f991206b2f2938755bc1e44ebe3b/element {"using": "xpath", "value": "//button[@id=\"button-cart\"]"}
+2022-04-17 19:53:17,647 DEBUG    http://127.0.0.1:61285 "POST /session/3ad2f991206b2f2938755bc1e44ebe3b/element HTTP/1.1" 200 88
+2022-04-17 19:53:17,648 DEBUG    Finished Request
+2022-04-17 19:53:17,648 DEBUG    POST http://127.0.0.1:61285/session/3ad2f991206b2f2938755bc1e44ebe3b/element/c8e1d3ed-771f-4431-82d6-424621fb47b6/click {"id": "c8e1d3ed-771f-4431-82d6-424621fb47b6"}
+2022-04-17 19:53:17,679 DEBUG    http://127.0.0.1:61285 "POST /session/3ad2f991206b2f2938755bc1e44ebe3b/element/c8e1d3ed-771f-4431-82d6-424621fb47b6/click HTTP/1.1" 200 14
+2022-04-17 19:53:17,679 DEBUG    Finished Request
+2022-04-17 19:53:17,679 DEBUG    POST http://127.0.0.1:61285/session/3ad2f991206b2f2938755bc1e44ebe3b/element {"using": "xpath", "value": "cart-total"}
+2022-04-17 19:53:17,691 DEBUG    http://127.0.0.1:61285 "POST /session/3ad2f991206b2f2938755bc1e44ebe3b/element HTTP/1.1" 404 1016
+2022-04-17 19:53:17,692 DEBUG    Finished Request
+2022-04-17 19:53:17,695 DEBUG    POST http://127.0.0.1:61285/session/3ad2f991206b2f2938755bc1e44ebe3b/element {"using": "xpath", "value": "//input[@id=\"button-shipping-method\"]"}
+2022-04-17 19:53:17,710 DEBUG    http://127.0.0.1:61285 "POST /session/3ad2f991206b2f2938755bc1e44ebe3b/element HTTP/1.1" 404 1045
+2022-04-17 19:53:17,710 DEBUG    Finished Request
+2022-04-17 19:53:17,711 DEBUG    DELETE http://127.0.0.1:61285/session/3ad2f991206b2f2938755bc1e44ebe3b/window {}
+2022-04-17 19:53:17,793 DEBUG    http://127.0.0.1:61285 "DELETE /session/3ad2f991206b2f2938755bc1e44ebe3b/window HTTP/1.1" 200 12
+2022-04-17 19:53:17,793 DEBUG    Finished Request
+2022-04-17 19:53:50,548 CRITICAL CRITICAL LEVEL
+2022-04-17 19:53:50,548 ERROR    ERROR LEVEL
+2022-04-17 19:53:50,548 WARNING  WARNING LEVEL
+2022-04-17 19:53:50,548 INFO     INFO LEVEL
+2022-04-17 19:53:50,548 DEBUG    DEBUG LEVEL
+2022-04-17 19:53:50,552 DEBUG    POST http://127.0.0.1:61320/session/d8df2eb6556b9cd7ed2c23393ae13341/url {"url": "http://tutorialsninja.com/demo/index.php?route=product/category&path=18"}
+2022-04-17 19:53:52,709 DEBUG    http://127.0.0.1:61320 "POST /session/d8df2eb6556b9cd7ed2c23393ae13341/url HTTP/1.1" 200 14
+2022-04-17 19:53:52,710 DEBUG    Finished Request
+2022-04-17 19:53:52,710 DEBUG    POST http://127.0.0.1:61320/session/d8df2eb6556b9cd7ed2c23393ae13341/window/maximize {}
+2022-04-17 19:53:52,824 DEBUG    http://127.0.0.1:61320 "POST /session/d8df2eb6556b9cd7ed2c23393ae13341/window/maximize HTTP/1.1" 200 51
+2022-04-17 19:53:52,824 DEBUG    Finished Request
+2022-04-17 19:53:52,824 DEBUG    POST http://127.0.0.1:61320/session/d8df2eb6556b9cd7ed2c23393ae13341/element {"using": "xpath", "value": "//a[text()=\"HP LP3065\"]"}
+2022-04-17 19:53:52,840 DEBUG    http://127.0.0.1:61320 "POST /session/d8df2eb6556b9cd7ed2c23393ae13341/element HTTP/1.1" 200 88
+2022-04-17 19:53:52,840 DEBUG    Finished Request
+2022-04-17 19:53:52,840 DEBUG    POST http://127.0.0.1:61320/session/d8df2eb6556b9cd7ed2c23393ae13341/element/e44d5943-17ce-418c-b6b0-842a2ea2faba/click {"id": "e44d5943-17ce-418c-b6b0-842a2ea2faba"}
+2022-04-17 19:53:55,411 DEBUG    http://127.0.0.1:61320 "POST /session/d8df2eb6556b9cd7ed2c23393ae13341/element/e44d5943-17ce-418c-b6b0-842a2ea2faba/click HTTP/1.1" 200 14
+2022-04-17 19:53:55,412 DEBUG    Finished Request
+2022-04-17 19:53:55,412 DEBUG    POST http://127.0.0.1:61320/session/d8df2eb6556b9cd7ed2c23393ae13341/element {"using": "xpath", "value": "//button[@id=\"button-cart\"]"}
+2022-04-17 19:53:55,423 DEBUG    http://127.0.0.1:61320 "POST /session/d8df2eb6556b9cd7ed2c23393ae13341/element HTTP/1.1" 200 88
+2022-04-17 19:53:55,424 DEBUG    Finished Request
+2022-04-17 19:53:55,424 DEBUG    POST http://127.0.0.1:61320/session/d8df2eb6556b9cd7ed2c23393ae13341/element/57a5ed0e-7c2b-485d-8be4-5c2e9c891860/click {"id": "57a5ed0e-7c2b-485d-8be4-5c2e9c891860"}
+2022-04-17 19:53:55,453 DEBUG    http://127.0.0.1:61320 "POST /session/d8df2eb6556b9cd7ed2c23393ae13341/element/57a5ed0e-7c2b-485d-8be4-5c2e9c891860/click HTTP/1.1" 200 14
+2022-04-17 19:53:55,453 DEBUG    Finished Request
+2022-04-17 19:53:55,454 DEBUG    POST http://127.0.0.1:61320/session/d8df2eb6556b9cd7ed2c23393ae13341/element {"using": "xpath", "value": "cart-total"}
+2022-04-17 19:53:55,465 DEBUG    http://127.0.0.1:61320 "POST /session/d8df2eb6556b9cd7ed2c23393ae13341/element HTTP/1.1" 404 1016
+2022-04-17 19:53:55,465 DEBUG    Finished Request
+2022-04-17 19:53:55,467 DEBUG    DELETE http://127.0.0.1:61320/session/d8df2eb6556b9cd7ed2c23393ae13341/window {}
+2022-04-17 19:53:59,603 DEBUG    http://127.0.0.1:61320 "DELETE /session/d8df2eb6556b9cd7ed2c23393ae13341/window HTTP/1.1" 200 12
+2022-04-17 19:53:59,603 DEBUG    Finished Request
+2022-04-17 19:55:35,619 CRITICAL CRITICAL LEVEL
+2022-04-17 19:55:35,619 ERROR    ERROR LEVEL
+2022-04-17 19:55:35,619 WARNING  WARNING LEVEL
+2022-04-17 19:55:35,619 INFO     INFO LEVEL
+2022-04-17 19:55:35,620 DEBUG    DEBUG LEVEL
+2022-04-17 19:55:35,623 DEBUG    POST http://127.0.0.1:61365/session/f4e1a67f572a0e6c16a01f80764b7548/url {"url": "http://tutorialsninja.com/demo/index.php?route=product/category&path=18"}
+2022-04-17 19:55:39,070 DEBUG    http://127.0.0.1:61365 "POST /session/f4e1a67f572a0e6c16a01f80764b7548/url HTTP/1.1" 200 14
+2022-04-17 19:55:39,071 DEBUG    Finished Request
+2022-04-17 19:55:39,071 DEBUG    POST http://127.0.0.1:61365/session/f4e1a67f572a0e6c16a01f80764b7548/window/maximize {}
+2022-04-17 19:55:39,180 DEBUG    http://127.0.0.1:61365 "POST /session/f4e1a67f572a0e6c16a01f80764b7548/window/maximize HTTP/1.1" 200 51
+2022-04-17 19:55:39,180 DEBUG    Finished Request
+2022-04-17 19:55:39,180 DEBUG    POST http://127.0.0.1:61365/session/f4e1a67f572a0e6c16a01f80764b7548/element {"using": "xpath", "value": "//a[text()=\"HP LP3065\"]"}
+2022-04-17 19:55:39,180 DEBUG    http://127.0.0.1:61365 "POST /session/f4e1a67f572a0e6c16a01f80764b7548/element HTTP/1.1" 200 88
+2022-04-17 19:55:39,180 DEBUG    Finished Request
+2022-04-17 19:55:39,180 DEBUG    POST http://127.0.0.1:61365/session/f4e1a67f572a0e6c16a01f80764b7548/element/747e2f03-ca5c-4263-9ee6-46745e36c142/click {"id": "747e2f03-ca5c-4263-9ee6-46745e36c142"}
+2022-04-17 19:55:42,635 DEBUG    http://127.0.0.1:61365 "POST /session/f4e1a67f572a0e6c16a01f80764b7548/element/747e2f03-ca5c-4263-9ee6-46745e36c142/click HTTP/1.1" 200 14
+2022-04-17 19:55:42,636 DEBUG    Finished Request
+2022-04-17 19:55:42,636 DEBUG    POST http://127.0.0.1:61365/session/f4e1a67f572a0e6c16a01f80764b7548/element {"using": "xpath", "value": "//button[@id=\"button-cart\"]"}
+2022-04-17 19:55:42,648 DEBUG    http://127.0.0.1:61365 "POST /session/f4e1a67f572a0e6c16a01f80764b7548/element HTTP/1.1" 200 88
+2022-04-17 19:55:42,648 DEBUG    Finished Request
+2022-04-17 19:55:42,648 DEBUG    POST http://127.0.0.1:61365/session/f4e1a67f572a0e6c16a01f80764b7548/element/1ff4c8af-a467-47cc-8321-9ca29451513d/click {"id": "1ff4c8af-a467-47cc-8321-9ca29451513d"}
+2022-04-17 19:55:42,679 DEBUG    http://127.0.0.1:61365 "POST /session/f4e1a67f572a0e6c16a01f80764b7548/element/1ff4c8af-a467-47cc-8321-9ca29451513d/click HTTP/1.1" 200 14
+2022-04-17 19:55:42,680 DEBUG    Finished Request
+2022-04-17 19:55:42,680 DEBUG    POST http://127.0.0.1:61365/session/f4e1a67f572a0e6c16a01f80764b7548/element {"using": "xpath", "value": "cart-total"}
+2022-04-17 19:55:42,691 DEBUG    http://127.0.0.1:61365 "POST /session/f4e1a67f572a0e6c16a01f80764b7548/element HTTP/1.1" 404 1016
+2022-04-17 19:55:42,691 DEBUG    Finished Request
+2022-04-17 19:55:42,693 DEBUG    DELETE http://127.0.0.1:61365/session/f4e1a67f572a0e6c16a01f80764b7548/window {}
+2022-04-17 19:55:46,822 DEBUG    http://127.0.0.1:61365 "DELETE /session/f4e1a67f572a0e6c16a01f80764b7548/window HTTP/1.1" 200 12
+2022-04-17 19:55:46,822 DEBUG    Finished Request
+2022-04-17 19:57:01,841 CRITICAL CRITICAL LEVEL
+2022-04-17 19:57:01,841 ERROR    ERROR LEVEL
+2022-04-17 19:57:01,841 WARNING  WARNING LEVEL
+2022-04-17 19:57:01,842 INFO     INFO LEVEL
+2022-04-17 19:57:01,842 DEBUG    DEBUG LEVEL
+2022-04-17 19:57:01,845 DEBUG    POST http://127.0.0.1:61434/session/1663d8067cfdc26b412e334cc50c078c/url {"url": "http://tutorialsninja.com/demo/index.php?route=product/category&path=18"}
+2022-04-17 19:57:04,378 DEBUG    http://127.0.0.1:61434 "POST /session/1663d8067cfdc26b412e334cc50c078c/url HTTP/1.1" 200 14
+2022-04-17 19:57:04,378 DEBUG    Finished Request
+2022-04-17 19:57:04,379 DEBUG    POST http://127.0.0.1:61434/session/1663d8067cfdc26b412e334cc50c078c/window/maximize {}
+2022-04-17 19:57:04,501 DEBUG    http://127.0.0.1:61434 "POST /session/1663d8067cfdc26b412e334cc50c078c/window/maximize HTTP/1.1" 200 51
+2022-04-17 19:57:04,501 DEBUG    Finished Request
+2022-04-17 19:57:04,501 DEBUG    POST http://127.0.0.1:61434/session/1663d8067cfdc26b412e334cc50c078c/element {"using": "xpath", "value": "//a[text()=\"HP LP3065\"]"}
+2022-04-17 19:57:04,501 DEBUG    http://127.0.0.1:61434 "POST /session/1663d8067cfdc26b412e334cc50c078c/element HTTP/1.1" 200 88
+2022-04-17 19:57:04,501 DEBUG    Finished Request
+2022-04-17 19:57:04,501 DEBUG    POST http://127.0.0.1:61434/session/1663d8067cfdc26b412e334cc50c078c/element/34b9b2dd-47fb-4094-88ac-8f0cff75f8ec/click {"id": "34b9b2dd-47fb-4094-88ac-8f0cff75f8ec"}
+2022-04-17 19:57:07,563 DEBUG    http://127.0.0.1:61434 "POST /session/1663d8067cfdc26b412e334cc50c078c/element/34b9b2dd-47fb-4094-88ac-8f0cff75f8ec/click HTTP/1.1" 200 14
+2022-04-17 19:57:07,564 DEBUG    Finished Request
+2022-04-17 19:57:07,564 DEBUG    POST http://127.0.0.1:61434/session/1663d8067cfdc26b412e334cc50c078c/element {"using": "xpath", "value": "//button[@id=\"button-cart\"]"}
+2022-04-17 19:57:07,573 DEBUG    http://127.0.0.1:61434 "POST /session/1663d8067cfdc26b412e334cc50c078c/element HTTP/1.1" 200 88
+2022-04-17 19:57:07,574 DEBUG    Finished Request
+2022-04-17 19:57:07,574 DEBUG    POST http://127.0.0.1:61434/session/1663d8067cfdc26b412e334cc50c078c/element/0e595ab9-83fc-4290-90f1-4589744ef3ef/click {"id": "0e595ab9-83fc-4290-90f1-4589744ef3ef"}
+2022-04-17 19:57:07,602 DEBUG    http://127.0.0.1:61434 "POST /session/1663d8067cfdc26b412e334cc50c078c/element/0e595ab9-83fc-4290-90f1-4589744ef3ef/click HTTP/1.1" 200 14
+2022-04-17 19:57:07,602 DEBUG    Finished Request
+2022-04-17 19:57:07,602 DEBUG    POST http://127.0.0.1:61434/session/1663d8067cfdc26b412e334cc50c078c/element {"using": "xpath", "value": "//*[@id=\"cart\"]/button"}
+2022-04-17 19:57:07,612 DEBUG    http://127.0.0.1:61434 "POST /session/1663d8067cfdc26b412e334cc50c078c/element HTTP/1.1" 200 88
+2022-04-17 19:57:07,613 DEBUG    Finished Request
+2022-04-17 19:57:07,613 DEBUG    POST http://127.0.0.1:61434/session/1663d8067cfdc26b412e334cc50c078c/element/02450e59-607a-4dc1-af15-215cf74a72a1/click {"id": "02450e59-607a-4dc1-af15-215cf74a72a1"}
+2022-04-17 19:57:07,645 DEBUG    http://127.0.0.1:61434 "POST /session/1663d8067cfdc26b412e334cc50c078c/element/02450e59-607a-4dc1-af15-215cf74a72a1/click HTTP/1.1" 200 14
+2022-04-17 19:57:07,646 DEBUG    Finished Request
+2022-04-17 19:57:07,646 DEBUG    POST http://127.0.0.1:61434/session/1663d8067cfdc26b412e334cc50c078c/element {"using": "xpath", "value": "//p[@class=\"text-right\"]/a[2]"}
+2022-04-17 19:57:07,657 DEBUG    http://127.0.0.1:61434 "POST /session/1663d8067cfdc26b412e334cc50c078c/element HTTP/1.1" 404 1037
+2022-04-17 19:57:07,657 DEBUG    Finished Request
+2022-04-17 19:57:07,659 DEBUG    DELETE http://127.0.0.1:61434/session/1663d8067cfdc26b412e334cc50c078c/window {}
+2022-04-17 19:57:07,765 DEBUG    http://127.0.0.1:61434 "DELETE /session/1663d8067cfdc26b412e334cc50c078c/window HTTP/1.1" 200 12
+2022-04-17 19:57:07,765 DEBUG    Finished Request
+2022-04-17 19:58:14,045 CRITICAL CRITICAL LEVEL
+2022-04-17 19:58:14,045 ERROR    ERROR LEVEL
+2022-04-17 19:58:14,045 WARNING  WARNING LEVEL
+2022-04-17 19:58:14,045 INFO     INFO LEVEL
+2022-04-17 19:58:14,045 DEBUG    DEBUG LEVEL
+2022-04-17 19:58:14,048 DEBUG    POST http://127.0.0.1:61501/session/bbce9d59f66eb4f0761a6927a489ba3d/url {"url": "http://tutorialsninja.com/demo/index.php?route=product/category&path=18"}
+2022-04-17 19:58:19,444 DEBUG    http://127.0.0.1:61501 "POST /session/bbce9d59f66eb4f0761a6927a489ba3d/url HTTP/1.1" 200 14
+2022-04-17 19:58:19,444 DEBUG    Finished Request
+2022-04-17 19:58:19,444 DEBUG    POST http://127.0.0.1:61501/session/bbce9d59f66eb4f0761a6927a489ba3d/window/maximize {}
+2022-04-17 19:58:19,557 DEBUG    http://127.0.0.1:61501 "POST /session/bbce9d59f66eb4f0761a6927a489ba3d/window/maximize HTTP/1.1" 200 51
+2022-04-17 19:58:19,557 DEBUG    Finished Request
+2022-04-17 19:58:19,557 DEBUG    POST http://127.0.0.1:61501/session/bbce9d59f66eb4f0761a6927a489ba3d/element {"using": "xpath", "value": "//a[text()=\"HP LP3065\"]"}
+2022-04-17 19:58:19,557 DEBUG    http://127.0.0.1:61501 "POST /session/bbce9d59f66eb4f0761a6927a489ba3d/element HTTP/1.1" 200 88
+2022-04-17 19:58:19,557 DEBUG    Finished Request
+2022-04-17 19:58:19,557 DEBUG    POST http://127.0.0.1:61501/session/bbce9d59f66eb4f0761a6927a489ba3d/element/8ba33719-b474-409c-a308-f1ac5c487ba9/click {"id": "8ba33719-b474-409c-a308-f1ac5c487ba9"}
+2022-04-17 19:58:23,274 DEBUG    http://127.0.0.1:61501 "POST /session/bbce9d59f66eb4f0761a6927a489ba3d/element/8ba33719-b474-409c-a308-f1ac5c487ba9/click HTTP/1.1" 200 14
+2022-04-17 19:58:23,275 DEBUG    Finished Request
+2022-04-17 19:58:23,275 DEBUG    POST http://127.0.0.1:61501/session/bbce9d59f66eb4f0761a6927a489ba3d/element {"using": "xpath", "value": "//button[@id=\"button-cart\"]"}
+2022-04-17 19:58:23,285 DEBUG    http://127.0.0.1:61501 "POST /session/bbce9d59f66eb4f0761a6927a489ba3d/element HTTP/1.1" 200 88
+2022-04-17 19:58:23,285 DEBUG    Finished Request
+2022-04-17 19:58:23,285 DEBUG    POST http://127.0.0.1:61501/session/bbce9d59f66eb4f0761a6927a489ba3d/element/dc7f7ef7-c2a3-479a-a017-4427a8c8d710/click {"id": "dc7f7ef7-c2a3-479a-a017-4427a8c8d710"}
+2022-04-17 19:58:23,315 DEBUG    http://127.0.0.1:61501 "POST /session/bbce9d59f66eb4f0761a6927a489ba3d/element/dc7f7ef7-c2a3-479a-a017-4427a8c8d710/click HTTP/1.1" 200 14
+2022-04-17 19:58:23,316 DEBUG    Finished Request
+2022-04-17 19:58:23,316 DEBUG    POST http://127.0.0.1:61501/session/bbce9d59f66eb4f0761a6927a489ba3d/element {"using": "xpath", "value": "//*[@id=\"cart\"]/button"}
+2022-04-17 19:58:23,326 DEBUG    http://127.0.0.1:61501 "POST /session/bbce9d59f66eb4f0761a6927a489ba3d/element HTTP/1.1" 200 88
+2022-04-17 19:58:23,327 DEBUG    Finished Request
+2022-04-17 19:58:23,327 DEBUG    POST http://127.0.0.1:61501/session/bbce9d59f66eb4f0761a6927a489ba3d/element/1eb03489-57d8-4378-8f31-0ec3f331a35a/click {"id": "1eb03489-57d8-4378-8f31-0ec3f331a35a"}
+2022-04-17 19:58:23,358 DEBUG    http://127.0.0.1:61501 "POST /session/bbce9d59f66eb4f0761a6927a489ba3d/element/1eb03489-57d8-4378-8f31-0ec3f331a35a/click HTTP/1.1" 200 14
+2022-04-17 19:58:23,358 DEBUG    Finished Request
+2022-04-17 19:58:23,358 DEBUG    POST http://127.0.0.1:61501/session/bbce9d59f66eb4f0761a6927a489ba3d/element {"using": "xpath", "value": "//*[@id=\"cart\"]/ul/li[2]/div/p/a[2]/strong"}
+2022-04-17 19:58:23,369 DEBUG    http://127.0.0.1:61501 "POST /session/bbce9d59f66eb4f0761a6927a489ba3d/element HTTP/1.1" 404 1050
+2022-04-17 19:58:23,370 DEBUG    Finished Request
+2022-04-17 19:58:23,372 DEBUG    DELETE http://127.0.0.1:61501/session/bbce9d59f66eb4f0761a6927a489ba3d/window {}
+2022-04-17 19:58:23,494 DEBUG    http://127.0.0.1:61501 "DELETE /session/bbce9d59f66eb4f0761a6927a489ba3d/window HTTP/1.1" 200 12
+2022-04-17 19:58:23,494 DEBUG    Finished Request
+2022-04-17 20:02:22,722 CRITICAL CRITICAL LEVEL
+2022-04-17 20:02:22,722 ERROR    ERROR LEVEL
+2022-04-17 20:02:22,722 WARNING  WARNING LEVEL
+2022-04-17 20:02:22,722 INFO     INFO LEVEL
+2022-04-17 20:02:22,722 DEBUG    DEBUG LEVEL
+2022-04-17 20:02:22,722 DEBUG    POST http://127.0.0.1:61609/session/a65d947c17c23d735717a35e3fe3bfe2/url {"url": "http://tutorialsninja.com/demo/index.php?route=product/category&path=18"}
+2022-04-17 20:02:24,856 DEBUG    http://127.0.0.1:61609 "POST /session/a65d947c17c23d735717a35e3fe3bfe2/url HTTP/1.1" 200 14
+2022-04-17 20:02:24,856 DEBUG    Finished Request
+2022-04-17 20:02:24,856 DEBUG    POST http://127.0.0.1:61609/session/a65d947c17c23d735717a35e3fe3bfe2/window/maximize {}
+2022-04-17 20:02:24,973 DEBUG    http://127.0.0.1:61609 "POST /session/a65d947c17c23d735717a35e3fe3bfe2/window/maximize HTTP/1.1" 200 51
+2022-04-17 20:02:24,973 DEBUG    Finished Request
+2022-04-17 20:02:24,973 DEBUG    POST http://127.0.0.1:61609/session/a65d947c17c23d735717a35e3fe3bfe2/element {"using": "xpath", "value": "//a[text()=\"HP LP3065\"]"}
+2022-04-17 20:02:24,973 DEBUG    http://127.0.0.1:61609 "POST /session/a65d947c17c23d735717a35e3fe3bfe2/element HTTP/1.1" 200 88
+2022-04-17 20:02:24,973 DEBUG    Finished Request
+2022-04-17 20:02:24,973 DEBUG    POST http://127.0.0.1:61609/session/a65d947c17c23d735717a35e3fe3bfe2/element/0dc54dc2-a533-4e17-8174-2d911ec8f473/click {"id": "0dc54dc2-a533-4e17-8174-2d911ec8f473"}
+2022-04-17 20:02:28,374 DEBUG    http://127.0.0.1:61609 "POST /session/a65d947c17c23d735717a35e3fe3bfe2/element/0dc54dc2-a533-4e17-8174-2d911ec8f473/click HTTP/1.1" 200 14
+2022-04-17 20:02:28,374 DEBUG    Finished Request
+2022-04-17 20:02:28,375 DEBUG    POST http://127.0.0.1:61609/session/a65d947c17c23d735717a35e3fe3bfe2/element {"using": "xpath", "value": "//button[@id=\"button-cart\"]"}
+2022-04-17 20:02:28,385 DEBUG    http://127.0.0.1:61609 "POST /session/a65d947c17c23d735717a35e3fe3bfe2/element HTTP/1.1" 200 88
+2022-04-17 20:02:28,385 DEBUG    Finished Request
+2022-04-17 20:02:28,385 DEBUG    POST http://127.0.0.1:61609/session/a65d947c17c23d735717a35e3fe3bfe2/element/523dba27-05df-4144-a6d6-330465e8492a/click {"id": "523dba27-05df-4144-a6d6-330465e8492a"}
+2022-04-17 20:02:28,414 DEBUG    http://127.0.0.1:61609 "POST /session/a65d947c17c23d735717a35e3fe3bfe2/element/523dba27-05df-4144-a6d6-330465e8492a/click HTTP/1.1" 200 14
+2022-04-17 20:02:28,415 DEBUG    Finished Request
+2022-04-17 20:02:28,415 DEBUG    POST http://127.0.0.1:61609/session/a65d947c17c23d735717a35e3fe3bfe2/element {"using": "xpath", "value": "cart-total"}
+2022-04-17 20:02:28,428 DEBUG    http://127.0.0.1:61609 "POST /session/a65d947c17c23d735717a35e3fe3bfe2/element HTTP/1.1" 404 1016
+2022-04-17 20:02:28,428 DEBUG    Finished Request
+2022-04-17 20:02:28,430 DEBUG    DELETE http://127.0.0.1:61609/session/a65d947c17c23d735717a35e3fe3bfe2/window {}
+2022-04-17 20:02:32,550 DEBUG    http://127.0.0.1:61609 "DELETE /session/a65d947c17c23d735717a35e3fe3bfe2/window HTTP/1.1" 200 12
+2022-04-17 20:02:32,550 DEBUG    Finished Request
